@@ -1,0 +1,3 @@
+# The Coreys website
+
+This is the band's website. At this momment the website is purely front-end with no connection to a database. All code is intentionally written in ES5 for developer-foo reasons. If you are to work on this site you are to keep it as light as possible and try to minimize HTTP requests on every turn. Media files should be as small as possible and outside dependencies should only exist if necessary. 
