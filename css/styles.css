@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 #logo {
     top: 14px;
     position: absolute;
@@ -49,6 +54,24 @@ video {
 
 center_figure {
     text-align: center;
+}
+
+#map {
+    width: 650px;
+    height: 450px;
+}
+
+#bellow-map {
+    margin-top: 430px;
+}
+
+.map-container {
+    width: 650px; /* Needs a specific value to center the element */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
 }
 
 body {
@@ -165,7 +188,6 @@ body {
     top: 37%;
     position: absolute;
     left: 5%;
-    z-index: -1;
     background-size: contain;
     top: 20%;
     margin-bottom: 4%;
