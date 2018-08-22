@@ -8,6 +8,7 @@
     <meta name="description" content="Past and upcoming shows!">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,news,live-shows,live,shows,νέα,παραστάσεις">
     <link rel="alternate" title="The Coreys - News" type="text/html" hreflang="en" href="/view/english/News.html" />
+    <script src="../js/news.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/menu.css" />
 </head>
@@ -68,17 +69,6 @@
         </aside>
     </header>
     <main>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <div class="panelclass">
             <h2>
                 Επερχόμενα show!
@@ -86,7 +76,10 @@
             <ul class="linews">
                 <li class="linews">3/12/17 @ Υπόγειο w/Junkheart, Θεσσαλονίκη</li>
             </ul>
-            <p>Εγγραφείτε στο
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            <p id="bellow-map">Εγγραφείτε στο
                 <a href="www.facebook.com/TheCoreys">Events list</a> στο Facebook ή στο mailing list, στέλνοντας το e-mail σας στο
                 <em>
                     <a href="mailto:thecoreys@hotmail.gr">thecoreys@hotmail.com</a>
@@ -96,7 +89,6 @@
                 <h2>
                     Παλιά shows
                 </h2>
-
                 <!--MAKE THIS LIST PRINTABLE FROM THE DATABASE AND PUT LINKS TO ALL EVENTS POINTING TO THEIR FB PAGES!!!!-->
 
                 <ul>
@@ -119,6 +111,10 @@
             </footer>
         </div>
     </main>
+    <!-- The Coreys maps key: AIzaSyDrCdQ4YZWrKfGDCdkKa7pcnc35HGMYBSg -->
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDrCdQ4YZWrKfGDCdkKa7pcnc35HGMYBSg&callback=initMap">
+    </script>
 </body>
 
 </html>

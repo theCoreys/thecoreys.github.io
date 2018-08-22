@@ -115,6 +115,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Fill the modal with the results.
             document.getElementById('quiz-content').innerText = 'You got ' + correctSum + ' out of the ' + shuffled.length + ' questions right!'
+            let resetButton = document.querySelector('.quiz-reset');
+            if(correctSum===6){
+                resetButton.value = "Cool!";
+            }else{
+                resetButton.value = "Maybe try again?";
+            }
             // Open the modal.
             popup.style.display = "block";
             fadeIn(popup, 50);
@@ -124,12 +130,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     let popup = document.querySelector('.popup');
-    // Open link (used for debbuging the modal).
+  /*  // Open link (used for debbuging the modal).
     document.getElementById('btn').addEventListener('click', function (e) {
         popup.style.display = "block";
         fadeIn(popup, 50);
         e.preventDefault();
-    });
+    }); */
 
     // Close the modal.
     document.querySelector('.popup-close').addEventListener('click', function (e) {
