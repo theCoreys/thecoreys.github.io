@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Fest 1",
+        "date": "1/1/18",
+        "address": "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35",
+        "link": ""
+    }
+    ,{
+        "name": "Fest 2",
+        "date": "2/1/18",
+        "address": "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35",
+        "link": "https://www.facebook.com/bob.corey.50"
+    }
+    ,{
+        "name": "Fest 3",
+        "date": "3/1/18",
+        "address": "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35",
+        "link": "https://www.facebook.com/bob.corey.50"
+    }
+]
+        
