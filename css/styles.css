@@ -1,21 +1,29 @@
 html,
 body {
     height: 100%;
+    font-family: sans-serif;
 }
 
-#logo {
-    top: 14px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
+a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
 }
 
-#menubar {
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: 1000;
+img {
+    border-radius: 10px;
+}
+
+hr {
+    max-width: 707px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#old-shows-header{
+    margin-bottom: 2%;
+    padding-bottom: 0;
 }
 
 #member {
@@ -46,36 +54,80 @@ body {
     position: absolute;
 }
 
-video {
-    margin: 0px;
-    width: 100%;
-    position: fixed;
+#bio {
+    max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-center_figure {
-    text-align: center;
+video {
+    width: 85%;
+    border-radius: 15px;
+    border: black 8px solid;
+    display: block;
+    margin: 10% auto;
 }
 
 #map {
-    width: 650px;
+    width: 100%;
     height: 450px;
+    border-radius: 6px;
 }
 
 #bellow-map {
-    margin-top: 430px;
+    margin-top: 500px;
+}
+
+#members-header {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.member-container {
+    display: inline;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    top: -275%;
+    left: 5%;
+}
+.below-member {
+    position: absolute;
+    top: -135%;
+    left: 5%;
 }
 
 .map-container {
-    width: 650px; /* Needs a specific value to center the element */
+    width: 60%;
+    /* Needs a specific value to center the element */
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
+    border-radius: 15px;
+    border: black 8px solid;
+}
+
+.band-img {
+    max-width: 100%;
+}
+
+.band-caption {
+    max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 body {
-    background: gray;
+    background: rgb(255, 216, 0);
+    ;
     padding: 0;
     margin: 0;
     background-attachment: fixed;
@@ -136,6 +188,22 @@ body {
     font-weight: normal;
 }
 
+.center_figure {
+    max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-img {
+    margin: 1%;
+    min-width: 36%;
+    border-radius: 0;
+}
+
+/* Bottom left text */
+
+.bottom-left {}
+
 .coolbutton {
     margin-top: 1%;
     margin-bottom: 1.5%;
@@ -179,19 +247,23 @@ body {
 }
 
 .panelclass {
-    background: goldenrod;
     height: auto;
     width: 90%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(159, 65, 63);
-    top: 37%;
     position: absolute;
     left: 5%;
-    background-size: contain;
     top: 20%;
     margin-bottom: 4%;
-    border-radius: 8px;
+    border-radius: 16px;
+}
+
+.panelclass-white {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+}
+
+.panelclass-black {
+    background: black;
+    color: white;
 }
 
 .inline {
@@ -222,8 +294,6 @@ iframe {
 }
 
 p {
-    padding: 40px;
-    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
 
@@ -234,10 +304,8 @@ h4,
 h5,
 h6 {
     padding: 2.5%;
-    font-family: sans-serif;
-    background: rgb(159, 65, 63);
-    color: white;
     text-align: center;
+    margin-bottom: -2%;
 }
 
 div {
@@ -256,7 +324,7 @@ ul {
     font-size: 25px;
     font-weight: bold;
     list-style: none;
-    margin: 0;
+    margin-bottom: 2%;
     padding: 0;
 }
 

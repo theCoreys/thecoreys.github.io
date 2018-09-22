@@ -37,7 +37,12 @@ loadJSON(function (response) {
         listItem.className='linews';
         
         // Create the link to the live's page.
-        let listLink = '<a href="'+liveData[i].link+'" class="list-link">'+liveData[i].name+'</a>';
+        let listLink
+        if(liveData[i].link==""){
+            listLink = liveData[i].name;
+        }else{
+            listLink = '<a href="'+liveData[i].link+'" class="list-link">'+liveData[i].name+'</a>';
+        }
 
         listItem.innerHTML=liveData[i].date+" - "+listLink+" - "+liveData[i].address;
         list.appendChild(listItem);
@@ -54,7 +59,7 @@ loadJSON(function (response) {
 
 
 /* Google maps now REQUIRES a credit card and will work only for free only for the first $200 monthly credit.
- After that you pay or wait till next month. 
+ After that you pay or wait till next month. */
  let map;
 
  // Create a new blank array for all the listing markers.
@@ -155,4 +160,3 @@ function geocodeAddress(geocoder, resultsMap, address) {
         }
     });
 }
-*/
