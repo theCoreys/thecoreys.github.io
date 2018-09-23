@@ -15,7 +15,7 @@ function toggleFiltering() {
     }
 }
 
-const empty = document.querySelector("#video-container");
+const empty = document.getElementById("close-burger");
 empty.addEventListener('click', function () {
     menu.classList.remove('open');
 })

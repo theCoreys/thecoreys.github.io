@@ -1,9 +1,9 @@
 @media screen and (min-width: 1120px) and (max-width: 1420px) {
     header .ulmenu li {
-        font-size: 2.3vh;
+        font-size: 1.9vw;
     }
     .ulmenu li a {
-        padding: 20px 2.9vh;
+        padding: 20px 1.7vw;
     }
     #logo .logo {
         width: 300px;
@@ -12,42 +12,49 @@
 
 @media screen and (min-width: 970px) and (max-width: 1119px) {
     header .ulmenu li {
-        font-size: 1.9vh;
+        font-size: 1.9vw;
     }
     .ulmenu li a {
-        padding: 20px 2.5vh;
+        padding: 20px 1.3vw;
     }
     #logo .logo {
         width: 280px;
     }
 }
 
-@media screen and (min-width: 840px) and (max-width: 969px) {
+@media screen and (min-width: 650px) and (max-width: 969px) {
     header .ulmenu li {
-        font-size: 1.5vh;
+        font-size: 1.7vw;
     }
     .ulmenu li a {
-        padding: 20px 2.3vh;
+        padding: 20px 1.3vw;
     }
     #logo .logo {
         width: 250px;
     }
 }
 
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 649px) {
     header .ulmenu li {
-        font-size: 1.5vh;
-        float: unset;
+        font-size: 4vw;
+        display: block;
     }
     div nav {
         height: 100%;
         z-index: 2;
     }
     nav .ulmenu {
-        height: 107%;
+        height: 100%;
+        text-align: center;
+    }
+    nav #close-burger{
+        display: block;
     }
     .ulmenu li a {
-        padding: 20px 2.3vh;
+        padding: 30px;
+    }
+    ul .linews{
+        font-size: 17px;
     }
     header #menubar {
         height: 100%;
@@ -74,10 +81,16 @@
         z-index: 1;
     }
     #logo .logo {
-        width: 220px;
+        width: 180px;
     }
     header #hamburger {
         display: block;
+    }
+    main .panelclass{
+        top: 13%;
+    }
+    main video{
+        margin: 17% auto;
     }
 }
 
@@ -88,6 +101,38 @@
     top: 15px;
     margin-right: 15px;
     z-index: 3;
+
+    cursor: pointer;
+    background: transparent;
+    border: black 3px solid;
+    border-radius: 6px;
+    font-size: 2vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#hamburger:hover {
+    background: rgba(51, 51, 51, 0.432);
+}
+
+#close-burger{
+    display: none;
+    user-select: none; /* Standard */
+    color: white;
+    font-size: 4vh;
+    padding-right: 14px;
+    padding-bottom: 7px;
+    padding-top: 2px;
+    padding-left: 10px;
+    width: fit-content;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+#close-burger:hover {
+    color: rgba(218, 218, 218, 0.753);
 }
 
 .ulmenu {
@@ -96,7 +141,7 @@
     padding: 0 0%;
     overflow: hidden;
     background-color: black;
-    text-align: center;
+    text-align: right;
 }
 
 .ulmenu li {
@@ -104,12 +149,12 @@
     text-align: left;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.8vh;
-    float: right;
+    font-size: 2vw;
+    display: inline-block;
 }
 
 .ulmenu a {
-    padding: 20px 4vh;
+    padding: 20px 1.9vw;
     display: block;
     color: white;
     text-align: center;
@@ -139,6 +184,10 @@ li a:hover {
 #menubar.open {
     /* This trasform moves the drawer back into the canvas. */
     transform: translate(0, 0);
+    overflow: unset;
+    /* Fix the side menu to the right side of the screen when open */
+    position: fixed;
+    height: 100%;
 }
 
 #sticky-social {

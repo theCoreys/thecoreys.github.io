@@ -6,8 +6,8 @@
     <title>The Coreys - Quiz</title>
     <meta name="description" content="The Coreys quiz page! Show off what you know about the band in a quick quiz! :)">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,quiz,questions,question">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="../favicon.ico" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../js/quiz.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/modal.css" />
@@ -16,26 +16,28 @@
 
 <body>
     <header>
+        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
+                    <li id="close-burger">✖</li>
                     <li>
-                        <a href="Quiz.html">Quiz</a>
-                    </li>
-                    <li>
-                        <a href="News.html">Concerts</a>
-                    </li>
-                    <li>
-                        <a href="Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="Merch.html">Merch</a>
+                        <a href="../index.html">Home</a>
                     </li>
                     <li>
                         <a href="Discography.html">Discography</a>
                     </li>
                     <li>
-                        <a href="../index.html">Home</a>
+                        <a href="Merch.html">Merch</a>
+                    </li>
+                    <li>
+                        <a href="Biography.html">Biography</a>
+                    </li>
+                    <li>
+                        <a href="News.html">Concerts</a>
+                    </li>
+                    <li>
+                        <a href="Quiz.html">Quiz</a>
                     </li>
                 </ul>
             </nav>
@@ -93,6 +95,7 @@
             </div>
         </div>
     </section>
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>

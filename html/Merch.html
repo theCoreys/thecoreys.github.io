@@ -6,6 +6,7 @@
     <title>The Coreys - Merch</title>
     <meta name="description" content="We put our heart in our merch! :)">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,Merch,ρούχα,προϊόντα,καλούδια">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="../favicon.ico" />
     <link rel="alternate" title="The Coreys - Καλούδια" type="text/html" hreflang="el" href="/view/greek/Καλούδια.html" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
@@ -14,26 +15,28 @@
 
 <body>
     <header>
+        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
+                    <li id="close-burger">✖</li>
                     <li>
-                        <a href="Quiz.html">Quiz</a>
-                    </li>
-                    <li>
-                        <a href="News.html">Concerts</a>
-                    </li>
-                    <li>
-                        <a href="Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="Merch.html">Merch</a>
+                        <a href="../index.html">Home</a>
                     </li>
                     <li>
                         <a href="Discography.html">Discography</a>
                     </li>
                     <li>
-                        <a href="../index.html">Home</a>
+                        <a href="Merch.html">Merch</a>
+                    </li>
+                    <li>
+                        <a href="Biography.html">Biography</a>
+                    </li>
+                    <li>
+                        <a href="News.html">Concerts</a>
+                    </li>
+                    <li>
+                        <a href="Quiz.html">Quiz</a>
                     </li>
                 </ul>
             </nav>
@@ -75,7 +78,7 @@
             <h3>You can help out by buying our stuff! All it takes is a mail to
                 <a href="mailto:thecoreys@hotmail.gr">thecoreys@hotmail.gr</a>.</h3>
             <figure>
-                <img class="center" src="../Multimedia/merch/shapeimage_14.png" alt="Album cover on a skate" />
+                <img class="center fit-img" src="../Multimedia/merch/shapeimage_14.png" alt="Album cover on a skate" />
                 <figcaption>
                     <p>Now shipping USPS worldwide</p>
                 </figcaption>
@@ -114,21 +117,21 @@
             <div>
                 <h1>Hats</h1>
                 <figure>
-                    <img src="../Multimedia/merch/hats-chris.jpg" alt="hat image" />
+                    <img class="fit-img" src="../Multimedia/merch/hats-chris.jpg" alt="hat image" />
                     <img src="../Multimedia/merch/hats-colors3.jpg" alt="hat colors" />
                 </figure>
             </div>
             <div>
                 <h1>Bottle Openers</h1>
                 <figure>
-                    <img src="../Multimedia/merch/konkardes_1.jpg" alt="bottle openers 1" />
-                    <img src="../Multimedia/merch/konkardes_2.jpg" alt="bottle openers 2" />
+                    <img class="fit-img" src="../Multimedia/merch/konkardes_1.jpg" alt="bottle openers 1" />
+                    <img class="fit-img" src="../Multimedia/merch/konkardes_2.jpg" alt="bottle openers 2" />
                 </figure>
             </div>
             <div>
                 <h1>Wallpaper</h1>
                 <figure>
-                    <img src="../Multimedia/merch/TheCoreyshighrez.jpg" alt="merch" />
+                    <img class="fit-img" src="../Multimedia/merch/TheCoreyshighrez.jpg" alt="merch" />
                     <br />
                     <span>Download our
                         <a href="../Multimedia/merch/The_Coreys-Wallpaper.jpg">wallpaper</a> for free in HD.</span>
@@ -136,6 +139,7 @@
             </div>
         </div>
     </main>
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>
