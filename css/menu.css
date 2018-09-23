@@ -63,7 +63,7 @@
 
         /* Hide menu off screen */
         position: absolute;
-        transform: translate(101%, 0);
+        transform: translate(106%, 0);
         transition: transform 0.2s ease;
     }
     header #sticky-social {
@@ -72,7 +72,7 @@
     }
     header #sticky-social a span {
         right: unset;
-        left: -120px;
+        left: -130px;
     }
     header #sticky-social a:hover span {
         left: 100%;
@@ -90,7 +90,7 @@
         top: 13%;
     }
     main video{
-        margin: 17% auto;
+        top: 75px;
     }
 }
 
@@ -193,24 +193,25 @@ li a:hover {
 #sticky-social {
     right: 0;
     position: fixed;
-    top: 14vh;
+    top: 20%;
     z-index: 1000;
 }
 
 #sticky-social a {
     color: #fff;
     display: block;
-    height: 35px;
     font: 16px "Open Sans", sans-serif;
     line-height: 35px;
     position: relative;
     text-align: center;
-    width: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
 }
 
 #sticky-social a span {
-    line-height: 35px;
-    right: -120px;
+    line-height: 40px;
+    right: -130px;
     position: absolute;
     text-align: center;
     width: 120px;
@@ -223,39 +224,55 @@ li a:hover {
 #sticky-social a[class*="facebook"],
 #sticky-social a[class*="facebook"]:hover,
 #sticky-social a[class*="facebook"] span {
-    background: #3b5998;
+    background: black;
+    border-radius: 7px;
+    border: rgb(255, 216, 0) 1px solid;
 }
 
 #sticky-social a[class*="facebook"]:link {
-    background: url(../Multimedia/social/fb.png);
+    background: url(../Multimedia/social/fb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sticky-social a[class*="youtube"],
 #sticky-social a[class*="youtube"]:hover,
 #sticky-social a[class*="youtube"] span {
-    background: hsl(0, 100%, 46%);
+    background: black;
+    border-radius: 7px;
+    border: rgb(255, 216, 0) 1px solid;
 }
 
 #sticky-social a[class*="youtube"]:link {
-    background: url(../Multimedia/social/yt.png);
+    background: url(../Multimedia/social/yt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sticky-social a[class*="bandcamp"],
 #sticky-social a[class*="bandcamp"]:hover,
 #sticky-social a[class*="bandcamp"] span {
-    background: #04080a;
+    background: black;
+    border-radius: 7px;
+    border: rgb(255, 216, 0) 1px solid;
 }
 
 #sticky-social a[class*="bandcamp"]:link {
-    background: url(../Multimedia/social/bc.png);
+    background: url(../Multimedia/social/bc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sticky-social a[class*="soundcloud"],
 #sticky-social a[class*="soundcloud"]:hover,
 #sticky-social a[class*="soundcloud"] span {
-    background: #d85102;
+    background: black;
+    border-radius: 7px;
+    border: rgb(255, 216, 0) 1px solid;
 }
 
 #sticky-social a[class*="soundcloud"]:link {
-    background: url(../Multimedia/social/sc.png);
+    background: url(../Multimedia/social/sc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
