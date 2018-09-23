@@ -312,12 +312,6 @@ div {
     text-align: center;
 }
 
-/* Change the link color to #111 (black) on hover */
-
-li a:hover {
-    background-color: #111
-}
-
 ul {
     color: black;
     text-align: left;
@@ -332,72 +326,3 @@ ul {
     text-align: center;
 }
 
-#sticky-social {
-    right: 0;
-    position: fixed;
-    top: 14vh;
-    z-index: 1000;
-}
-
-#sticky-social a {
-    color: #fff;
-    display: block;
-    height: 35px;
-    font: 16px "Open Sans", sans-serif;
-    line-height: 35px;
-    position: relative;
-    text-align: center;
-    width: 35px;
-}
-
-#sticky-social a span {
-    line-height: 35px;
-    right: -120px;
-    position: absolute;
-    text-align: center;
-    width: 120px;
-}
-
-#sticky-social a:hover span {
-    right: 100%;
-}
-
-#sticky-social a[class*="facebook"],
-#sticky-social a[class*="facebook"]:hover,
-#sticky-social a[class*="facebook"] span {
-    background: #3b5998;
-}
-
-#sticky-social a[class*="facebook"]:link {
-    background: url(../Multimedia/social/fb.png);
-}
-
-#sticky-social a[class*="youtube"],
-#sticky-social a[class*="youtube"]:hover,
-#sticky-social a[class*="youtube"] span {
-    background: hsl(0, 100%, 46%);
-}
-
-#sticky-social a[class*="youtube"]:link {
-    background: url(../Multimedia/social/yt.png);
-}
-
-#sticky-social a[class*="bandcamp"],
-#sticky-social a[class*="bandcamp"]:hover,
-#sticky-social a[class*="bandcamp"] span {
-    background: #04080a;
-}
-
-#sticky-social a[class*="bandcamp"]:link {
-    background: url(../Multimedia/social/bc.png);
-}
-
-#sticky-social a[class*="soundcloud"],
-#sticky-social a[class*="soundcloud"]:hover,
-#sticky-social a[class*="soundcloud"] span {
-    background: #d85102;
-}
-
-#sticky-social a[class*="soundcloud"]:link {
-    background: url(../Multimedia/social/sc.png);
-}

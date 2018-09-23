@@ -1,7 +1,93 @@
-@media screen and (min-width: 890) and (max-width: 1275) {
-    header .ulmenu li{
-        font-size: 2vh;
+@media screen and (min-width: 1120px) and (max-width: 1420px) {
+    header .ulmenu li {
+        font-size: 2.3vh;
     }
+    .ulmenu li a {
+        padding: 20px 2.9vh;
+    }
+    #logo .logo {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1119px) {
+    header .ulmenu li {
+        font-size: 1.9vh;
+    }
+    .ulmenu li a {
+        padding: 20px 2.5vh;
+    }
+    #logo .logo {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 840px) and (max-width: 969px) {
+    header .ulmenu li {
+        font-size: 1.5vh;
+    }
+    .ulmenu li a {
+        padding: 20px 2.3vh;
+    }
+    #logo .logo {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    header .ulmenu li {
+        font-size: 1.5vh;
+        float: unset;
+    }
+    div nav {
+        height: 100%;
+        z-index: 2;
+    }
+    nav .ulmenu {
+        height: 107%;
+    }
+    .ulmenu li a {
+        padding: 20px 2.3vh;
+    }
+    header #menubar {
+        height: 100%;
+        width: 70%;
+        right: 0;
+
+        /* Hide menu off screen */
+        position: absolute;
+        transform: translate(101%, 0);
+        transition: transform 0.2s ease;
+    }
+    header #sticky-social {
+        right: unset;
+        left: 0;
+    }
+    header #sticky-social a span {
+        right: unset;
+        left: -120px;
+    }
+    header #sticky-social a:hover span {
+        left: 100%;
+    }
+    header #logo {
+        z-index: 1;
+    }
+    #logo .logo {
+        width: 220px;
+    }
+    header #hamburger {
+        display: block;
+    }
+}
+
+#hamburger {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin-right: 15px;
+    z-index: 3;
 }
 
 .ulmenu {
@@ -30,6 +116,12 @@
     text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: rgb(48, 44, 44)
+}
+
 #logo {
     position: absolute;
     top: 10px;
@@ -42,4 +134,79 @@
     position: absolute;
     top: 0px;
     z-index: 1000;
+}
+
+#menubar.open {
+    /* This trasform moves the drawer back into the canvas. */
+    transform: translate(0, 0);
+}
+
+#sticky-social {
+    right: 0;
+    position: fixed;
+    top: 14vh;
+    z-index: 1000;
+}
+
+#sticky-social a {
+    color: #fff;
+    display: block;
+    height: 35px;
+    font: 16px "Open Sans", sans-serif;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 35px;
+}
+
+#sticky-social a span {
+    line-height: 35px;
+    right: -120px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+
+#sticky-social a:hover span {
+    right: 100%;
+}
+
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span {
+    background: #3b5998;
+}
+
+#sticky-social a[class*="facebook"]:link {
+    background: url(../Multimedia/social/fb.png);
+}
+
+#sticky-social a[class*="youtube"],
+#sticky-social a[class*="youtube"]:hover,
+#sticky-social a[class*="youtube"] span {
+    background: hsl(0, 100%, 46%);
+}
+
+#sticky-social a[class*="youtube"]:link {
+    background: url(../Multimedia/social/yt.png);
+}
+
+#sticky-social a[class*="bandcamp"],
+#sticky-social a[class*="bandcamp"]:hover,
+#sticky-social a[class*="bandcamp"] span {
+    background: #04080a;
+}
+
+#sticky-social a[class*="bandcamp"]:link {
+    background: url(../Multimedia/social/bc.png);
+}
+
+#sticky-social a[class*="soundcloud"],
+#sticky-social a[class*="soundcloud"]:hover,
+#sticky-social a[class*="soundcloud"] span {
+    background: #d85102;
+}
+
+#sticky-social a[class*="soundcloud"]:link {
+    background: url(../Multimedia/social/sc.png);
 }

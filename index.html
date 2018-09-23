@@ -6,7 +6,7 @@
     <title>The Coreys - Home</title>
     <meta name="description" content="Awesome music, FUN content and more!">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" type="image/ico" href="favicon.ico" />
     <link rel="alternate" title="The Coreys - Αρχική" type="text/html" hreflang="el" href="Αρχική.html" />
@@ -16,6 +16,7 @@
 
 <body>
     <header>
+        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
@@ -23,13 +24,16 @@
                         <a href="html/Quiz.html">Quiz</a>
                     </li>
                     <li>
-                        <a href="html/Biography.html">Biography</a>
-                    </li>
-                    <li>
                         <a href="html/News.html">Concerts</a>
                     </li>
                     <li>
+                        <a href="html/Biography.html">Biography</a>
+                    </li>
+                    <li>
                         <a href="html/Merch.html">Merch</a>
+                    </li>
+                    <li>
+                        <a href="html/Discography.html">Discography</a>
                     </li>
                     <li>
                         <a href="index.html">Home</a>
@@ -75,6 +79,7 @@
             </ul>
         </aside>
     </header>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
