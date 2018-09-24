@@ -6,47 +6,59 @@
     <title>The Coreys - Home</title>
     <meta name="description" content="Awesome music, FUN content and more!">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" type="image/ico" href="favicon.ico" />
-    <link rel="alternate" title="The Coreys - Αρχική" type="text/html" hreflang="el" href="Αρχική.html" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
 </head>
 
 <body>
     <header>
+        <!-- Landing page music prompt-->
+        <div class="popup" style="display: block;">
+            <h2 id="play-music" class="popup-inner">play music 🎵</h2>
+        </div>
+
+        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
+                    <li id="close-burger">✖</li>
                     <li>
-                        <a href="html/Quiz.html">Quiz</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="html/Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="html/News.html">News</a>
+                        <a href="html/Discography.html">Discography</a>
                     </li>
                     <li>
                         <a href="html/Merch.html">Merch</a>
                     </li>
                     <li>
-                        <a href="html/Content.html">Content</a>
+                        <a href="html/Biography.html">Biography</a>
                     </li>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="html/News.html">Concerts</a>
+                    </li>
+                    <li>
+                        <a href="html/Quiz.html">Quiz</a>
                     </li>
                 </ul>
             </nav>
         </div>
+        <img class="speaker speaker-index" src="Multimedia/sound/off.svg" alt="sound">
         <main>
-            <!--<img src="Multimedia/merch/The Coreys - Wallpaper (GEMO 2015).jpg" alt="front image"/>-->
-            <video autoplay loop>
-                <source src="sureal.mp4" type="video/mp4">
-            </video>
+            <div id="video-container">
+                <video autoplay loop muted>
+                    <source src="sureal.mp4" type="video/mp4" /> Your browser does not support the video tag.
+                </video>
+            </div>
         </main>
         <div id="logo">
-            <img class="logo" src="coreys.png" alt="correys logo">
+            <a href="index.html">
+                <img class="logo" src="coreys.png" alt="correys logo">
+            </a>
         </div>
 
         <aside id="sticky-social">
@@ -74,6 +86,9 @@
             </ul>
         </aside>
     </header>
+    <script src="js/menu.js"></script>
+    <script src="js/indexMusicPlayer.js"></script>
+    <script src="js/contentMusicPlayer.js"></script>
 </body>
 
 </html>

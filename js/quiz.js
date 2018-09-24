@@ -127,8 +127,6 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     }
 
-
-
     let popup = document.querySelector('.popup');
   /*  // Open link (used for debbuging the modal).
     document.getElementById('btn').addEventListener('click', function (e) {
@@ -152,8 +150,6 @@ document.addEventListener("DOMContentLoaded", function () {
         render();
         e.preventDefault();
     });
-
-
 
     /**
      * Create a new instance of a XMLHttpRequest and load asynchronously the contents of quizQuestions.json.

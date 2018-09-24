@@ -1,12 +1,71 @@
+// The featured live's name.
+let liveTitle = "not set";
+// The featured live's date.
+let date = "not set";
+// The featured live's address.
+let address = "not set";
+
+/**
+ * Create a new instance of a XMLHttpRequest and load asynchronously the contents of liveNews.json.
+ * @param {*} callback 
+ */
+function loadJSON(callback) {
+
+    let xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', '../data/liveNews.json', true);
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode.
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
+}
+
+
+//A script to fetch the quiz questions from the json file, shuflle them, add them one by one to the dom, by listening to the submit event the submit event of the previous one.
+loadJSON(function (response) {
+    // Parse JSON string into object
+    let liveData = JSON.parse(response);
+    // Select the unsorted list in which the live data will be appended to.
+    let list = document.getElementById("live-list");
+
+    for(i=0; i<liveData.length; i++){
+        // Create a list item for a live show.
+        let listItem = document.createElement('li');
+        listItem.className='linews';
+        
+        // Create the link to the live's page.
+        let listLink
+        if(liveData[i].link==""){
+            listLink = liveData[i].name;
+        }else{
+            listLink = '<a href="'+liveData[i].link+'" class="list-link">'+liveData[i].name+'</a>';
+        }
+
+        listItem.innerHTML=liveData[i].date+" - "+listLink+" - "+liveData[i].address;
+        list.appendChild(listItem);
+
+    }
+    // Get the latest live's title.
+    liveTitle=liveData[liveData.length-1].name;
+    console.log(liveTitle);
+    // Get the latest live's date.
+    date=liveData[liveData.length-1].date;
+    // Get the latest live's address.
+    address=liveData[liveData.length-1].address;
+});
+
+
 /* Google maps now REQUIRES a credit card and will work only for free only for the first $200 monthly credit.
  After that you pay or wait till next month. */
-let map;
+ let map;
 
-// Create a new blank array for all the listing markers.
-let markers = [];
-let liveLatLng; // Used to store the lat-lng of the live's location.
-
-
+ // Create a new blank array for all the listing markers.
+ let markers = [];
+ let liveLatLng; // Used to store the lat-lng of the live's location.
+ 
 function initMap() {
 
     let map = new google.maps.Map(document.getElementById('map'), {
@@ -17,12 +76,13 @@ function initMap() {
         }
     });
     let geocoder = new google.maps.Geocoder();
-    // Geocode given address.
-    geocodeAddress(geocoder, map);
+    
+    
+    // Geocode given address and set it to the liveLatLng parameter.
+    geocodeAddress(geocoder, map, address);
+    console.log('The lat-lng format taken from the geocodeAddress() func is:' + liveLatLng);
 
-    console.log('The lat-lng format taken from the geocodeAddress() func is:'+ liveLatLng);
     // Create a single marker for the latest live's location on initialize.
-    let title = 'LIVE\'S TITLE';
     let marker = new google.maps.Marker({
         position: liveLatLng,
         map: map,
@@ -85,8 +145,7 @@ function initMap() {
     });
 }
 
-function geocodeAddress(geocoder, resultsMap) {
-    let address = "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35";
+function geocodeAddress(geocoder, resultsMap, address) {
     geocoder.geocode({
         'address': address
     }, function (results, status) {

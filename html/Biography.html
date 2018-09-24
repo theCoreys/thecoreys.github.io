@@ -6,6 +6,7 @@
     <title>The Coreys - The Band</title>
     <meta name="description" content="The biography of the Coreys.">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,bio,biography,story,life,band">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="../favicon.ico" />
     <link rel="alternate" title="Η Μπάντα" type="text/html" hreflang="el" href="/view/greek/Βιογραφία.html" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
@@ -15,32 +16,37 @@
 <body>
 
     <header>
+        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
+                    <li id="close-burger">✖</li>
                     <li>
-                        <a href="Quiz.html">Quiz</a>
+                        <a href="../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="News.html">News</a>
+                        <a href="Discography.html">Discography</a>
                     </li>
                     <li>
                         <a href="Merch.html">Merch</a>
                     </li>
                     <li>
-                        <a href="Content.html">Content</a>
+                        <a href="Biography.html">Biography</a>
                     </li>
                     <li>
-                        <a href="../index.html">Home</a>
+                        <a href="News.html">Concerts</a>
+                    </li>
+                    <li>
+                        <a href="Quiz.html">Quiz</a>
                     </li>
                 </ul>
             </nav>
         </div>
+        <img class="speaker speaker-content" src="../Multimedia/sound/off.svg" alt="sound" />
         <div id="logo">
-            <img class="logo" src="../coreys.png" alt="the coreys">
+            <a href="../index.html">
+                <img class="logo" src="../coreys.png" alt="the coreys">
+            </a>
         </div>
 
         <aside id="sticky-social">
@@ -71,36 +77,74 @@
     </header>
     <main>
 
-        <div class="panelclass">
+        <div class="panelclass panelclass-black">
             <h1>The band</h1>
 
             <figure>
-                <img src="../Multimedia/band_members/night.jpg" class="center" alt="band members group photo" title="So cute >:3" />
+                <img class="band-img" src="../Multimedia/band_members/night.jpg" alt="band members group photo" />
+                <figcaption class="band-caption">
+                    The Coreys is an alternative punk rock band from Thessaloniki, GR. The band was formed by four
+                    friends, Bob, Kurk, Mario
+                    and Dimo. They play music they love and keep writing original songs. They are also the producers of
+                    the
+                    Surreality Show series of episodes, that captures the moments of their adventures with the band and
+                    also
+                    making fun of real life situations of them and their friends.
+                </figcaption>
             </figure>
 
-            <p>
-                The Coreys is an alternative punk rock band from Thessaloniki, GR.
-                <br> The band was formed by four friends, Bob, Kurk, Mario and Dimo. They play music they love and keep writing
-                original songs.
-                <br> They are also the producers of the Surreality Show series of episodes,
-                <br> that captures the moments of their adventures with the band and also making fun of real life situations
-                of them and their friends.
-            </p>
-            <h1>Find us</h1>
-            <figure class="center_figure">
-                <a href="https://www.facebook.com/bob.corey.50">
-                    <img src="../Multimedia/band_members/bob.png" alt="Bob Corey" title="Bob Corey" />
-                </a>
-                <a href="https://www.facebook.com/dimos.dimitriadis18">
-                    <img src="../Multimedia/band_members/dimos.jpg" alt="Dimos" title="Dimos" />
-                </a>
-                <a href="https://www.facebook.com/kurk.bousnakis">
-                    <img src="../Multimedia/band_members/kurk.png" alt="Kurk" title="Kurk" />
-                </a>
-                <a href="https://www.facebook.com/supermariopapa">
-                    <img src="../Multimedia/band_members/marios.jpg" alt="Marios" title="Marios" />
-                </a>
-            </figure>
+            <h1 id="members-header">Members</h1>
+            <hr>
+            <div class="member-container">
+                <!--<a href="https://www.facebook.com/bob.corey.50">
+                    </a>-->
+                <img src="../Multimedia/band_members/bob.png" class="member-img" alt="Bob Corey" title="Bob Corey" />
+                <div class="bottom-left">
+                    <strong>Bob Corey</strong>
+                    <em>(Μπάμπης)</em>
+                </div>
+                <div class="below-member">
+                    <small>Bass/Guitar/Vocals</small>
+                </div>
+            </div>
+            <div class="member-container">
+                <!--<a href="https://www.facebook.com/supermariopapa">
+                </a>-->
+                <img src="../Multimedia/band_members/marios.jpg" class="member-img" alt="Marios" title="Marios" />
+                <div class="bottom-left">
+                    <strong>Mario Corey</strong>
+                    <em>(Μάριος)</em>
+                </div>
+                <div class="below-member">
+                    <small>Bob Corey</small>
+                </div>
+            </div>
+            <br />
+            <div class="member-container">
+                <!--<a href="https://www.facebook.com/kurk.bousnakis">
+                </a>-->
+                <img src="../Multimedia/band_members/kurk.png" class="member-img" alt="Kurk" title="Kurk" />
+                <div class="bottom-left">
+                    <strong>Kurk Corey</strong>
+                    <em>(Κυριάκος)</em>
+                </div>
+                <div class="below-member">
+                    <small>Bass/Guitar/Vocals</small>
+                </div>
+            </div>
+            <div class="member-container">
+                <!--<a href="https://www.facebook.com/dimos.dimitriadis18">
+                </a>-->
+                <img src="../Multimedia/band_members/dimos.jpg" class="member-img" alt="Dimos" title="Dimos" />
+                <div class="bottom-left">
+                    <strong>Dim Corey</strong>
+                    <em>(Δήμος)</em>
+                </div>
+                <div class="below-member">
+                    <small>Drums</small>
+                </div>
+            </div>
+
             <p>Contact us at:
                 <em>
                     <a href="mailto:thecoreys@hotmail.gr">thecoreys@hotmail.com</a>
@@ -108,6 +152,8 @@
             </p>
         </div>
     </main>
+    <script src="../js/menu.js"></script>
+    <script src="../js/contentMusicPlayer.js"></script>
 </body>
 
 </html>
