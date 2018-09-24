@@ -16,6 +16,11 @@
 
 <body>
     <header>
+        <!-- Landing page music prompt-->
+        <div class="popup" style="display: block;">
+            <h2 id="play-music" class="popup-inner">play music 🎵</h2>
+        </div>
+
         <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
@@ -42,10 +47,7 @@
                 </ul>
             </nav>
         </div>
-        <img id="speaker" src="Multimedia/sound/off.svg" alt="sound" />
-        <div class="popup" style="display: block;">
-            <h2 id="play-music" class="popup-inner">play music 🎵</h2>
-        </div>
+        <img class="speaker speaker-index" src="Multimedia/sound/off.svg" alt="sound">
         <main>
             <div id="video-container">
                 <video autoplay loop muted>
@@ -85,7 +87,8 @@
         </aside>
     </header>
     <script src="js/menu.js"></script>
-    <script src="js/musicPlayer.js"></script>
+    <script src="js/indexMusicPlayer.js"></script>
+    <script src="js/contentMusicPlayer.js"></script>
 </body>
 
 </html>

@@ -8,8 +8,11 @@
     #logo .logo {
         width: 300px;
     }
-    header #speaker{
+    header .speaker-index{
         margin-top: 75px;
+    }
+    header .speaker-content{
+        margin-top: -50px;
     }
 }
 
@@ -23,8 +26,11 @@
     #logo .logo {
         width: 280px;
     }
-    header #speaker{
+    header .speaker-index{
         margin-top: 70px;
+    }
+    header .speaker-content{
+        margin-top: -55px;
     }
 }
 
@@ -38,8 +44,11 @@
     #logo .logo {
         width: 250px;
     }
-    header #speaker{
+    header .speaker-index{
         margin-top: 60px;
+    }
+    header .speaker-content{
+        margin-top: -65px;
     }
 }
 
@@ -69,6 +78,7 @@
         height: 100%;
         width: 70%;
         right: 0;
+        z-index: 10001;
 
         /* Hide menu off screen */
         position: absolute;
@@ -98,19 +108,32 @@
     main video {
         top: 75px;
     }
-    header #speaker{
-        margin-top:4px;
-        margin-right:70px;
+    header .speaker-index{
+        width: 55px;
+        margin-top: 10px;
+        margin-right: 80px;
+    }
+    header .speaker-content{
+        width: 55px;
+        margin-top: -121px;
+        margin-right: 80px;
     }
 }
 
-#speaker{
+.speaker{
     float: right;
-    margin-right: 10px;
-    margin-top: 85px;
-    position: relative;
     width: 60px;
     cursor: pointer;
+}
+
+.speaker-index{
+    margin-right: 10px;
+    margin-top: 85px;
+}
+
+.speaker-content{
+    margin-right: 15px;
+    margin-top: -35px;
 }
 
 #hamburger {
@@ -126,10 +149,10 @@
     border: black 3px solid;
     border-radius: 6px;
     font-size: 2vh;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #hamburger:hover {
