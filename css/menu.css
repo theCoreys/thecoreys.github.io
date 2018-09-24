@@ -8,6 +8,9 @@
     #logo .logo {
         width: 300px;
     }
+    header #speaker{
+        margin-top: 75px;
+    }
 }
 
 @media screen and (min-width: 970px) and (max-width: 1119px) {
@@ -20,6 +23,9 @@
     #logo .logo {
         width: 280px;
     }
+    header #speaker{
+        margin-top: 70px;
+    }
 }
 
 @media screen and (min-width: 650px) and (max-width: 969px) {
@@ -31,6 +37,9 @@
     }
     #logo .logo {
         width: 250px;
+    }
+    header #speaker{
+        margin-top: 60px;
     }
 }
 
@@ -47,13 +56,13 @@
         height: 100%;
         text-align: center;
     }
-    nav #close-burger{
+    nav #close-burger {
         display: block;
     }
     .ulmenu li a {
         padding: 30px;
     }
-    ul .linews{
+    ul .linews {
         font-size: 17px;
     }
     header #menubar {
@@ -77,21 +86,31 @@
     header #sticky-social a:hover span {
         left: 100%;
     }
-    header #logo {
-        z-index: 1;
-    }
     #logo .logo {
         width: 180px;
     }
     header #hamburger {
         display: block;
     }
-    main .panelclass{
+    main .panelclass {
         top: 13%;
     }
-    main video{
+    main video {
         top: 75px;
     }
+    header #speaker{
+        margin-top:4px;
+        margin-right:70px;
+    }
+}
+
+#speaker{
+    float: right;
+    margin-right: 10px;
+    margin-top: 85px;
+    position: relative;
+    width: 60px;
+    cursor: pointer;
 }
 
 #hamburger {
@@ -100,10 +119,10 @@
     right: 0;
     top: 15px;
     margin-right: 15px;
-    z-index: 3;
+    z-index: 1000;
 
     cursor: pointer;
-    background: transparent;
+    background: rgb(255, 216, 0);
     border: black 3px solid;
     border-radius: 6px;
     font-size: 2vh;
@@ -114,12 +133,13 @@
 }
 
 #hamburger:hover {
-    background: rgba(51, 51, 51, 0.432);
+    background: rgba(235, 204, 28, 0.63);
 }
 
-#close-burger{
+#close-burger {
     display: none;
-    user-select: none; /* Standard */
+    user-select: none;
+    /* Standard */
     color: white;
     font-size: 4vh;
     padding-right: 14px;
