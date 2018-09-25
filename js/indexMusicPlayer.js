@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+    audio = new Audio('Multimedia/sound/10th_Anniversary.mp3');
+    on = "Multimedia/sound/on.svg";
+    off = "Multimedia/sound/off.svg";
     var fadeTarget = document.querySelector('.popup');
 
     // Fade out music prompt after a while

@@ -1,3 +1,29 @@
+@media screen and (min-width: 1630px) and (max-width: 1830px) {
+    main #index-band {
+        width: 440px;
+        height: 575px;
+    }
+
+    main #surreal-playlist {
+        width: 62%;
+        height: 575px;
+    }
+}
+
+@media screen and (min-width: 1435px) and (max-width: 1629px) {
+    main #index-band {
+        width: 387px;
+        height: 527px;
+        margin-top: 68%;
+    }
+
+    main #surreal-playlist {
+        width: 60%;
+        height: 527px;
+        margin-top: 68%;
+    }
+}
+
 html,
 body {
     height: 100%;
@@ -22,12 +48,12 @@ a:hover {
     text-decoration: underline;
 }
 
-#old-shows-header{
+#old-shows-header {
     margin-bottom: 2%;
     padding-bottom: 0;
 }
 
-#soundcloud{
+#soundcloud {
     width: 220px;
     height: 363px;
 }
@@ -66,6 +92,26 @@ a:hover {
     margin-right: auto;
 }
 
+#index-band {
+    border-radius: 15px;
+    border: black 8px solid;
+    position: absolute;
+    right: 0;
+    margin-right: 3.5%;
+    margin-top: 65.5%;
+    width: 458px;
+    height: 600px;
+}
+
+#surreal-playlist {
+    width: 64%;
+    height: 600px;
+    margin-top: 65.5%;
+    margin-left: 3.5%;
+    border-radius: 15px;
+    border: black 8px solid;
+}
+
 video {
     width: 92%;
     padding: 0;
@@ -96,7 +142,7 @@ video {
     padding-bottom: 0px;
 }
 
-.fit-img{
+.fit-img {
     width: fit-content;
     max-width: 50%;
 }
@@ -114,6 +160,7 @@ video {
     top: -275%;
     left: 5%;
 }
+
 .below-member {
     position: absolute;
     top: -135%;
@@ -152,7 +199,7 @@ body {
     background-size: cover;
 }
 
-.album-cover{
+.album-cover {
     min-width: 140px;
     max-width: 140px;
     min-height: 140px;
@@ -310,10 +357,11 @@ body {
     font-size: 21px;
 }
 
-iframe {
+.disco-frame {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 4%;
+    border-radius: 6px;
 }
 
 p {
@@ -349,4 +397,3 @@ ul {
     text-align: center;
     margin: 2%;
 }
-
