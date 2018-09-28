@@ -22,7 +22,7 @@
             <h2 id="play-music" class="popup-inner">play music 🎵</h2>
         </div>
 
-        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
+        <input id="hamburger" type="button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
@@ -49,19 +49,6 @@
             </nav>
         </div>
         <img class="speaker speaker-index" src="Multimedia/sound/off.svg" alt="sound">
-        <main>
-            <div id="video-container">
-                <video autoplay loop muted>
-                    <source src="sureal.mp4" type="video/mp4" /> Your browser does not support the video tag.
-                </video>
-            </div>
-            <iframe id="surreal-playlist" src="https://www.youtube.com/embed/Qiele5GkFpA" frameborder="0" allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
-            <iframe id="index-band" src="https://bandcamp.com/EmbeddedPlayer/album=3740796379/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/"
-                seamless><a href="http://thecoreys.bandcamp.com/album/10th-anniversary">10th Anniversary by The Coreys</a></iframe>
-            <iframe id="index-band-phone" src="https://bandcamp.com/EmbeddedPlayer/album=3740796379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
-                seamless><a href="http://thecoreys.bandcamp.com/album/10th-anniversary">10th Anniversary by The Coreys</a></iframe>
-        </main>
         <div id="logo">
             <a href="index.html">
                 <img class="logo" src="The-Coreys-Logo.png" alt="correys logo">
@@ -93,9 +80,24 @@
             </ul>
         </aside>
     </header>
+    <main id="index-page-bottom">
+        <div id="video-container">
+            <video autoplay loop muted>
+                <source src="sureal.mp4" type="video/mp4" /> Your browser does not support the video tag.
+            </video>
+        </div>
+        <iframe id="surreal-playlist" src="https://www.youtube.com/embed/videoseries?list=PLA71F49B33D5CA3B0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+        <iframe id="index-band" src="https://bandcamp.com/EmbeddedPlayer/album=3740796379/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/"><a
+                href="http://thecoreys.bandcamp.com/album/10th-anniversary">10th Anniversary by The Coreys</a></iframe>
+        <iframe id="index-band-phone" src="https://bandcamp.com/EmbeddedPlayer/album=3740796379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"><a
+                href="http://thecoreys.bandcamp.com/album/10th-anniversary">10th Anniversary by The Coreys</a></iframe>
+    </main>
     <script src="js/menu.js"></script>
     <script src="js/contentMusicPlayer.js"></script>
     <script src="js/indexMusicPlayer.js"></script>
+    <!-- Service Worker -->
+    <script type="application/javascript" src="sw.js"></script>
 </body>
 
 </html>

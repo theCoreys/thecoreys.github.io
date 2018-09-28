@@ -127,6 +127,10 @@
     border: black 8px solid;
 }
 
+#index-page-bottom {
+    margin-bottom: 5%;
+}
+
 video {
     width: 92%;
     padding: 0;
