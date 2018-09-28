@@ -1,0 +1,29 @@
+{
+  "name": "thecoreys",
+  "version": "1.0.0",
+  "description": "Npm pachages for theCoreys' website",
+  "main": "sw.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlothfulSard/theCoreys.git"
+  },
+  "keywords": [
+    "theCoreys"
+  ],
+  "author": "Nikitas Senpai Chatzipazarlis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlothfulSard/theCoreys/issues"
+  },
+  "homepage": "https://github.com/SlothfulSard/theCoreys#readme",
+  "dependencies": {
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

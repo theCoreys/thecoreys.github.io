@@ -5,10 +5,10 @@ if (navigator.serviceWorker) { // Use service worker in a safe progressive enhan
     navigator.serviceWorker.register('sw.js')
         // This promise fulfills with a service worker registration object.
         .then(function (reg) {
-            //console.log("Service worker has been registered!!");
+            console.log("Service worker has been registered!!");
         })
         .catch(function (error) {
-            //console.log("Couldn't register the service worker, here's the error: "+error);
+            console.log("Couldn't register the service worker, here's the error: "+error);
         });
 }
 
