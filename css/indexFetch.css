@@ -1,0 +1,143 @@
+@media screen and (min-width: 1630px) and (max-width: 1830px) {
+    main #index-band {
+        width: 440px;
+        height: 575px;
+    }
+
+    main #surreal-playlist {
+        width: 62%;
+        height: 575px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1629px) {
+    main #index-band {
+        width: 380px;
+        height: 520px;
+        margin-top: 68%;
+    }
+
+    main #surreal-playlist {
+        width: 60%;
+        height: 520px;
+        margin-top: 68%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    main #index-band {
+        width: 322px;
+        height: 455px;
+        margin-top: 70%;
+    }
+
+    main #surreal-playlist {
+        width: 60%;
+        height: 455px;
+        margin-top: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    main #index-band {
+        width: 266px;
+        height: 425px;
+        margin-top: 73%;
+    }
+
+    main #surreal-playlist {
+        width: 60%;
+        height: 425px;
+        margin-top: 73%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 999px) {
+    main #index-band {
+        width: 230px;
+        height: 385px;
+        margin-top: 75%;
+    }
+
+    main #surreal-playlist {
+        width: 60%;
+        height: 385px;
+        margin-top: 75%;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 849px) {
+    main #index-band {
+        width: 210px;
+        height: 365px;
+        margin-top: 80%;
+    }
+
+    main #surreal-playlist {
+        width: 55%;
+        height: 365px;
+        margin-top: 80%;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    main #index-band {
+        display: none;
+    }
+
+    main #index-band-phone{
+        display: block;
+    }
+
+    main #surreal-playlist {
+        height: 200px;
+        width: 92%;
+        margin-top: 62%;
+        margin-left: 2.2%;
+    }
+}
+
+#index-band {
+    border-radius: 15px;
+    border: black 8px solid;
+    position: absolute;
+    right: 0;
+    margin-right: 3.5%;
+    margin-top: 65.5%;
+    width: 458px;
+    height: 600px;
+}
+
+#index-band-phone{
+    display: none;
+    border-radius: 15px;
+    border: black 8px solid;
+    width: 92%;
+    height: 120px;
+    margin-left: 2.2%;
+    margin-top: 3%;
+}
+
+#surreal-playlist {
+    width: 64%;
+    height: 600px;
+    margin-top: 65.5%;
+    margin-left: 3.5%;
+    border-radius: 15px;
+    border: black 8px solid;
+}
+
+video {
+    width: 92%;
+    padding: 0;
+    border-radius: 15px;
+    border: black 8px solid;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    top: 160px;
+}
