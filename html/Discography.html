@@ -4,19 +4,33 @@
 <head>
     <meta charset="utf-8">
     <title>The Coreys - The Band</title>
-    <meta name="description" content="The biography of the Coreys.">
-    <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,bio,biography,story,life,band">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coreys - The Band</title>
+    <!--website thumbnail-->
+    <meta property="og:image" content="../dist/images/The-Coreys-Logo.png" />
+    <meta property="og:image:secure_url" content="../dist/images/The-Coreys-Logo.png" />
+    <link rel="image_src" href="../dist/images/The-Coreys-Logo.png" />
+    <!--facebook sharing metadata-->
+    <meta property="og:title" content="The Coreys" />
+    <meta property="og:description" content="The discography of the Coreys." />
+    <!--end of thumbnail tags-->
+    <meta name="description" content="The discography of the Coreys.">
+    <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,bio,discography,story,life,band">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffd800"/>
+    <meta name="author" content="Nikitas Senpai Chatzipazarlis">
+    <link rel="manifest" href="../manifest.json">
     <link rel="icon" type="image/ico" href="../favicon.ico" />
-    <link rel="alternate" title="Η Μπάντα" type="text/html" hreflang="el" href="/view/greek/Βιογραφία.html" />
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../dist/css/styles.css" />
+    <!--
+        I don't need to import the menu.css file because of Sass minification and concatenation
+        <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    -->
 </head>
 
 <body>
 
     <header>
-        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
+        <input id="hamburger" type="button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
@@ -28,13 +42,13 @@
                         <a href="Discography.html">Discography</a>
                     </li>
                     <li>
+                        <a href="News.html">Concerts</a>
+                    </li>
+                    <li>
                         <a href="Merch.html">Merch</a>
                     </li>
                     <li>
-                        <a href="Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="News.html">Concerts</a>
+                        <a href="Biography.html">Band</a>
                     </li>
                     <li>
                         <a href="Quiz.html">Quiz</a>
@@ -42,10 +56,10 @@
                 </ul>
             </nav>
         </div>
-        <img class="speaker speaker-content" src="../Multimedia/sound/off.svg" alt="sound" />
+        <img class="speaker speaker-content" src="../dist/images/sound/off.svg" alt="sound" />
         <div id="logo">
             <a href="../index.html">
-                <img class="logo" src="../coreys.png" alt="the coreys">
+                <img class="logo" src="../dist/images/The-Coreys-Logo.png" alt="the coreys">
             </a>
         </div>
 
@@ -78,24 +92,29 @@
     <main>
         <div class="panelclass panelclass-black">
             <h1>Our Discography</h1>
-            <iframe style="border: 0; border-radius: 6px; width: 220px; height: 363px;" src="https://bandcamp.com/EmbeddedPlayer/album=3740796379/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" seamless><a href="http://thecoreys.bandcamp.com/album/10th-anniversary">10th Anniversary by The Coreys</a></iframe>
-            <iframe style="border: 0; border-radius: 6px; width: 220px; height: 363px;" src="https://bandcamp.com/EmbeddedPlayer/album=4100830891/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="http://thecoreys.bandcamp.com/album/-">Για Πανκ Ενδεχόμενο by The Coreys</a></iframe>
+            <iframe class="disco-frame" style="width: 220px; height: 363px;" src="https://bandcamp.com/EmbeddedPlayer/album=3740796379/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/"><a
+                    href="http://thecoreys.bandcamp.com/album/10th-anniversary">10th Anniversary by The Coreys</a></iframe>
+            <iframe class="disco-frame" style="width: 220px; height: 363px;" src="https://bandcamp.com/EmbeddedPlayer/album=4100830891/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/transparent=true/"><a
+                    href="http://thecoreys.bandcamp.com/album/-">Για Πανκ Ενδεχόμενο by The Coreys</a></iframe>
             <!--<iframe id="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/31408196&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>-->
             <h1>Download for FREE</h1>
             <a href="http://www.mediafire.com/file/qc6pv6v3zdptpbt/The+Coreys+-+Ramonistika.rar">
-                <img class="album-cover" src="../Multimedia/album_covers/CD4_2011.jpg" alt="Ramonistika" />
+                <img class="album-cover" src="../dist/images/album_covers/CD4_2011.jpg" alt="Ramonistika" />
             </a>
             <a href="http://www.mediafire.com/file/n35lkqi5yzj/Crazy+Air+Balloon+-+The+Coreys.zip">
-                <img class="album-cover" src="../Multimedia/album_covers/CD3_2009.jpg" alt="Crazy Air Balloon" />
+                <img class="album-cover" src="../dist/images/album_covers/CD3_2009.jpg" alt="Crazy Air Balloon" />
             </a>
             <a href="http://www.mediafire.com/file/zbcgzuyzzvc/The+Coreys+-+Break+A+Leg.zip">
-                <img class="album-cover" src="../Multimedia/album_covers/CD2_2008.jpg" alt="Break a leg" />
+                <img class="album-cover" src="../dist/images/album_covers/CD2_2008.jpg" alt="Break a leg" />
             </a>
             <a href="https://www.last.fm/music/The+Coreys/lipstic+in+your+eye">
-                <img class="album-cover" src="../Multimedia/album_covers/CD1_2008.jpg" alt="Lipstic in your eye" />
+                <img class="album-cover" src="../dist/images/album_covers/CD1_2008.jpg" alt="Lipstic in your eye" />
             </a>
         </div>
     </main>
+    <script src="../dist/js/basic-production-script.js"></script>
+    <!-- These files are concatenated and minified into basic-production-script.js
     <script src="../js/menu.js"></script>
     <script src="../js/contentMusicPlayer.js"></script>
+    -->
 </body>

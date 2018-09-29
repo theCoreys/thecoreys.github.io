@@ -4,18 +4,33 @@
 <head>
     <meta charset="utf-8">
     <title>The Coreys - Merch</title>
+    <title>The Coreys - The Band</title>
+    <!--website thumbnail-->
+    <meta property="og:image" content="../dist/images/The-Coreys-Logo.png" />
+    <meta property="og:image:secure_url" content="../dist/images/The-Coreys-Logo.png" />
+    <link rel="image_src" href="../dist/images/The-Coreys-Logo.png" />
+    <!--facebook sharing metadata-->
+    <meta property="og:title" content="The Coreys" />
+    <meta property="og:description" content="We put our heart in our merch! :)" />
+    <!--end of thumbnail tags-->
     <meta name="description" content="We put our heart in our merch! :)">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,Merch,ρούχα,προϊόντα,καλούδια">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffd800"/>
+    <meta name="author" content="Nikitas Senpai Chatzipazarlis">
+    <link rel="manifest" href="../manifest.json">
     <link rel="icon" type="image/ico" href="../favicon.ico" />
     <link rel="alternate" title="The Coreys - Καλούδια" type="text/html" hreflang="el" href="/view/greek/Καλούδια.html" />
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../dist/css/styles.css" />
+    <!--
+        I don't need to import the menu.css file because of Sass minification and concatenation
+        <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    -->
 </head>
 
 <body>
     <header>
-        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
+        <input id="hamburger" type="button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
@@ -27,13 +42,13 @@
                         <a href="Discography.html">Discography</a>
                     </li>
                     <li>
+                        <a href="News.html">Concerts</a>
+                    </li>
+                    <li>
                         <a href="Merch.html">Merch</a>
                     </li>
                     <li>
-                        <a href="Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="News.html">Concerts</a>
+                        <a href="Biography.html">Band</a>
                     </li>
                     <li>
                         <a href="Quiz.html">Quiz</a>
@@ -41,10 +56,10 @@
                 </ul>
             </nav>
         </div>
-        <img class="speaker speaker-content" src="../Multimedia/sound/off.svg" alt="sound" />
+        <img class="speaker speaker-content" src="../dist/images/sound/off.svg" alt="sound" />
         <div id="logo">
             <a href="../index.html">
-                <img class="logo" src="../coreys.png" alt="the coreys">
+                <img class="logo" src="../dist/images/The-Coreys-Logo.png" alt="the coreys">
             </a>
         </div>
 
@@ -79,7 +94,7 @@
             <h3>You can help out by buying our stuff! All it takes is a mail to
                 <a href="mailto:thecoreys@hotmail.gr">thecoreys@hotmail.gr</a>.</h3>
             <figure>
-                <img class="center fit-img" src="../Multimedia/merch/shapeimage_14.png" alt="Album cover on a skate" />
+                <img class="center fit-img" src="../dist/images/merch/shapeimage_14.png" alt="Album cover on a skate" />
                 <figcaption>
                     <p>Now shipping USPS worldwide</p>
                 </figcaption>
@@ -88,7 +103,7 @@
             <div>
                 <h1>T-Shirts</h1>
                 <figure class="inline">
-                    <img id="img_left" src="../Multimedia/merch/1_unisex_black.jpg" alt="unisex shirt" />
+                    <img id="img_left" src="../dist/images/merch/1_unisex_black.jpg" alt="unisex shirt" />
                     <figcaption>
                         <span>Unisex</span>
                         <br />
@@ -102,7 +117,7 @@
                     </figcaption>
                 </figure>
                 <figure class="inline">
-                    <img src="../Multimedia/merch/3_women_mauro.jpg" alt="women's shirt'" />
+                    <img src="../dist/images/merch/3_women_mauro.jpg" alt="women's shirt'" />
                     <figcaption>
                         <span>Slim fit</span>
                         <br />
@@ -118,30 +133,33 @@
             <div>
                 <h1>Hats</h1>
                 <figure>
-                    <img class="fit-img" src="../Multimedia/merch/hats-chris.jpg" alt="hat image" />
-                    <img src="../Multimedia/merch/hats-colors3.jpg" alt="hat colors" />
+                    <img class="fit-img" src="../dist/images/merch/hats-chris.jpg" alt="hat image" />
+                    <img src="../dist/images/merch/hats-colors3.jpg" alt="hat colors" />
                 </figure>
             </div>
             <div>
                 <h1>Bottle Openers</h1>
                 <figure>
-                    <img class="fit-img" src="../Multimedia/merch/konkardes_1.jpg" alt="bottle openers 1" />
-                    <img class="fit-img" src="../Multimedia/merch/konkardes_2.jpg" alt="bottle openers 2" />
+                    <img class="fit-img" src="../dist/images/merch/konkardes_1.jpg" alt="bottle openers 1" />
+                    <img class="fit-img" src="../dist/images/merch/konkardes_2.jpg" alt="bottle openers 2" />
                 </figure>
             </div>
             <div>
                 <h1>Wallpaper</h1>
                 <figure>
-                    <img class="fit-img" src="../Multimedia/merch/TheCoreyshighrez.jpg" alt="merch" />
+                    <img class="fit-img" src="../dist/images/merch/TheCoreyshighrez.jpg" alt="merch" />
                     <br />
                     <span>Download our
-                        <a href="../Multimedia/merch/The_Coreys-Wallpaper.jpg">wallpaper</a> for free in HD.</span>
+                        <a href="../dist/images/merch/The_Coreys-Wallpaper.jpg">wallpaper</a> for free in HD.</span>
                 </figure>
             </div>
         </div>
     </main>
+    <script src="../dist/js/basic-production-script.js"></script>
+    <!-- These files are concatenated and minified into basic-production-script.js
     <script src="../js/menu.js"></script>
     <script src="../js/contentMusicPlayer.js"></script>
+    -->
 </body>
 
 </html>

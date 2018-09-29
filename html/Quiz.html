@@ -4,19 +4,33 @@
 <head>
     <meta charset="utf-8">
     <title>The Coreys - Quiz</title>
-    <meta name="description" content="The Coreys quiz page! Show off what you know about the band in a quick quiz! :)">
+    <title>The Coreys - The Band</title>
+    <!--website thumbnail-->
+    <meta property="og:image" content="../dist/images/The-Coreys-Logo.png" />
+    <meta property="og:image:secure_url" content="../dist/images/The-Coreys-Logo.png" />
+    <link rel="image_src" href="../dist/images/The-Coreys-Logo.png" />
+    <!--facebook sharing metadata-->
+    <meta property="og:title" content="The Coreys" />
+    <meta property="og:description" content="The Coreys pop-quiz page!" />
+    <!--end of thumbnail tags-->
+    <meta name="description" content="The Coreys pop-quiz page!">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,quiz,questions,question">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffd800"/>
+    <meta name="author" content="Nikitas Senpai Chatzipazarlis">
+    <link rel="manifest" href="../manifest.json">
     <link rel="icon" type="image/ico" href="../favicon.ico" />
-    <script src="../js/quiz.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/modal.css" />
-    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../dist/css/modal.css" />
+    <!--
+        I don't need to import the menu.css and syles.css file because of Sass minification and concatenation
+        <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    -->
 </head>
 
 <body>
     <header>
-        <input id="hamburger" type="button" className="burger-button" value="☰" aria-label="Filter menu button" />
+        <input id="hamburger" type="button" value="☰" aria-label="Filter menu button" />
         <div id="menubar">
             <nav>
                 <ul class="ulmenu">
@@ -28,13 +42,13 @@
                         <a href="Discography.html">Discography</a>
                     </li>
                     <li>
+                        <a href="News.html">Concerts</a>
+                    </li>
+                    <li>
                         <a href="Merch.html">Merch</a>
                     </li>
                     <li>
-                        <a href="Biography.html">Biography</a>
-                    </li>
-                    <li>
-                        <a href="News.html">Concerts</a>
+                        <a href="Biography.html">Band</a>
                     </li>
                     <li>
                         <a href="Quiz.html">Quiz</a>
@@ -42,10 +56,10 @@
                 </ul>
             </nav>
         </div>
-        <img class="speaker speaker-content" src="../Multimedia/sound/off.svg" alt="sound" />
+        <img class="speaker speaker-content" src="../dist/images/sound/off.svg" alt="sound" />
         <div id="logo">
             <a href="../index.html">
-                <img class="logo" src="../coreys.png" alt="logo">
+                <img class="logo" src="../dist/images/The-Coreys-Logo.png" alt="logo">
             </a>
         </div>
         <aside id="sticky-social">
@@ -92,12 +106,17 @@
                 <a class="popup-close" href="#">x</a>
                 <h2>Here's your results:</h2>
                 <p id="quiz-content"></p>
-                <input class="quiz-reset coolbutton" type="button" value="">
+                <input class="quiz-reset coolbutton" type="button" value="empty">
             </div>
         </div>
     </section>
+
+    <script src="../dist/js/quiz-production-script.js"></script>
+    <!-- These files are concatenated and minified into quiz-production-script.js
     <script src="../js/menu.js"></script>
     <script src="../js/contentMusicPlayer.js"></script>
+    <script src="../js/quiz.js"></script>
+    -->
 </body>
 
 </html>

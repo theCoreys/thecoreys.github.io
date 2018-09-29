@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.2",
+  "short_name": "theCoreys",
+  "name": "The Coreys",
+  "icons": [{
+      "src": "The-Coreys-Logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "The-Coreys-Logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#ffd800",
+  "display": "standalone",
+  "theme_color": "#ffd800"
+}

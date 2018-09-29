@@ -1,0 +1,343 @@
+/* The menu.scss file is imported by the styles.scss file */
+/* The styles.scss file is imported by the modal.scss file */
+
+@import "./menu.scss";
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+
+img {
+    border-radius: 10px;
+}
+
+hr {
+    max-width: 707px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#old-shows-header {
+    margin-bottom: 2%;
+    padding-bottom: 0;
+}
+
+#soundcloud {
+    width: 220px;
+    height: 363px;
+}
+
+#member {
+    padding-left: 18%;
+}
+
+#menusocial {
+    position: absolute;
+    right: 0;
+    top: 6%;
+    padding: 0;
+    margin: 0;
+}
+
+#socialicon {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    right: 0;
+}
+
+#Kelly {
+    color: green;
+}
+
+#maincontent {
+    top: 32vh;
+    position: absolute;
+}
+
+#bio {
+    max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    border-radius: 6px;
+}
+
+#bellow-map {
+    margin-top: 500px;
+}
+
+#members-header {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.fit-img {
+    width: fit-content;
+    max-width: 50%;
+}
+
+.member-container {
+    display: inline;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    top: -275%;
+    left: 5%;
+}
+
+.below-member {
+    position: absolute;
+    top: -135%;
+    left: 5%;
+}
+
+.map-container {
+    width: 60%;
+    /* Needs a specific value to center the element */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    border-radius: 15px;
+    border: black 8px solid;
+}
+
+.band-img {
+    max-width: 100%;
+}
+
+.band-caption {
+    max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+body {
+    background: rgb(255, 216, 0);
+    overflow: initial;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.album-cover {
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    margin: 5px;
+}
+
+.correct {
+    color: green;
+}
+
+.false {
+    color: red;
+}
+
+.row {
+    background-color: white;
+    border: 2px solid rgb(159, 65, 63);
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px 5px;
+    font-weight: normal;
+}
+
+.footable {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.pagination {
+    display: inline;
+}
+
+.required {
+    color: red;
+}
+
+.form {
+    border: 2px solid rgb(159, 65, 63);
+    padding: 1em;
+    box-shadow: 5px 5px 3px gainsboro;
+    box-sizing: content-box;
+    width: 301px;
+    border-radius: 20px 5px;
+    margin: auto;
+}
+
+.quizfield {
+    border: 2px solid rgb(159, 65, 63);
+    padding: 1em;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px 5px;
+    font-weight: normal;
+}
+
+.center_figure {
+    max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-img {
+    margin: 1%;
+    min-width: 36%;
+    border-radius: 0;
+}
+
+.coolbutton {
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 1.5%;
+}
+
+.coolbutton:hover {
+    background-color: rgb(159, 65, 63);
+}
+
+.noUnderline:visited {
+    text-decoration: none;
+    padding: 2%;
+    font-size: 25px;
+}
+
+.noUnderline:link {
+    text-decoration: none;
+    padding: 2%;
+    font-size: 25px;
+}
+
+.noUnderline:hover {
+    padding: 2%;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.panelclass {
+    height: auto;
+    width: 88%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    border-radius: 16px;
+}
+
+.panelclass-white {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+}
+
+.panelclass-black {
+    background: black;
+    color: white;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.MenuLink:link {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.MenuLink:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.MenuLink:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.disco-frame {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    border-radius: 6px;
+}
+
+p {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 3.5%;
+    text-align: center;
+    margin-bottom: -1%;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 2%;
+    padding: 0;
+}
+
+.linews {
+    text-align: center;
+    margin: 2%;
+}
