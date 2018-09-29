@@ -9,7 +9,7 @@ let address = "not set";
  * Create a new instance of a XMLHttpRequest and load asynchronously the contents of oldShows.json.
  * @param {*} callback 
  */
-function loadJSON(callback) {
+function loadOldShows(callback) {
 
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -25,7 +25,7 @@ function loadJSON(callback) {
 
 
 //A script to fetch the quiz questions from the json file, shuflle them, add them one by one to the dom, by listening to the submit event the submit event of the previous one.
-loadJSON(function (response) {
+loadOldShows(function (response) {
     // Parse JSON string into object
     let liveData = JSON.parse(response);
     // Select the unsorted list in which the live data will be appended to.
@@ -54,7 +54,7 @@ loadJSON(function (response) {
  * Create a new instance of a XMLHttpRequest and load asynchronously the contents of upcomingShows.json.
  * @param {*} callback 
  */
-function loadJSON(callback) {
+function loadUpcomingShows(callback) {
 
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -70,7 +70,7 @@ function loadJSON(callback) {
 
 
 //A script to fetch the quiz questions from the json file, shuflle them, add them one by one to the dom, by listening to the submit event the submit event of the previous one.
-loadJSON(function (response) {
+loadUpcomingShows(function (response) {
     // Parse JSON string into object
     let liveData = JSON.parse(response);
     // Select the unsorted list in which the live data will be appended to.
