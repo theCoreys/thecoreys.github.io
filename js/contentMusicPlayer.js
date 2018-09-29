@@ -1,7 +1,12 @@
 
-var audio = new Audio('../Multimedia/sound/10th_Anniversary.mp3');
-var on = "../Multimedia/sound/on.svg";
-var off = "../Multimedia/sound/off.svg";
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+if(page!="index.html"){
+    var audio = new Audio('../Multimedia/sound/10th_Anniversary.mp3');
+    var on = "../Multimedia/sound/on.svg";
+    var off = "../Multimedia/sound/off.svg";
+}
 document.addEventListener("DOMContentLoaded", function () {
     
     let speaker = document.querySelector('.speaker');

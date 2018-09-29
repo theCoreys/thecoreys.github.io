@@ -95,6 +95,8 @@ self.addEventListener("install", function (event) {
         'html/Merch.html',
         'html/News.html',
         'html/Quiz.html',
+        'dist/css/menu.css',
+        'dist/css/styles.css',
         'data/liveNews.json',
         'data/quizQuestions.json',
         'Multimedia/social/bc.svg',

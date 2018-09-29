@@ -7,9 +7,8 @@
     <link rel="icon" type="image/ico" href="../favicon.ico" />
     <meta name="description" content="Past and upcoming shows!">
     <meta name="keywords" content="Punk,Punk-rock,Punkrock,Rock,theCoreys,Coreys,news,live-shows,live,shows,νέα,παραστάσεις">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes, shrink-to-fit=no">
     <link rel="alternate" title="The Coreys - News" type="text/html" hreflang="en" href="/view/english/News.html" />
-    <script src="../js/news.js"></script>
     <link rel="stylesheet" type="text/css" href="../dist/css/styles.css" />
     <!--
         I don't need to import the menu.css file because of Sass minification and concatenation
@@ -107,8 +106,12 @@
     <!-- The Coreys maps key: AIzaSyDrCdQ4YZWrKfGDCdkKa7pcnc35HGMYBSg  -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDrCdQ4YZWrKfGDCdkKa7pcnc35HGMYBSg&callback=initMap">
     </script>
+    <script src="../dist/js/news-production-script.js"></script>
+    <!-- These files are concatenated and minified into news-production-script.js
     <script src="../js/menu.js"></script>
     <script src="../js/contentMusicPlayer.js"></script>
+    <script src="../js/news.js"></script>
+    -->
 </body>
 
 </html>
