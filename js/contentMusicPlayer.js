@@ -4,8 +4,8 @@ var page = path.split("/").pop();
 
 if(page!="index.html"){
     var audio = new Audio('../Multimedia/sound/10th_Anniversary.mp3');
-    var on = "../Multimedia/sound/on.svg";
-    var off = "../Multimedia/sound/off.svg";
+    var on = "../dist/images/sound/on.svg";
+    var off = "../dist/images/sound/off.svg";
 }
 document.addEventListener("DOMContentLoaded", function () {
     

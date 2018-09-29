@@ -5,6 +5,8 @@ const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify-es').default;
 const babel = require('gulp-babel');
+const imagemin = require('gulp-imagemin');
+const imageminPngquant = require('imagemin-pngquant');
 
 
 gulp.task('default', defaultTask);
@@ -88,4 +90,58 @@ gulp.task('quiz-script', function () {
         .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/js'));
+});
+
+gulp.task('minify-covers', function() {
+	return gulp.src('Multimedia/album_covers/*')
+		.pipe(imagemin({
+			progressive: true,
+			use: [imageminPngquant()]
+		}))
+		.pipe(gulp.dest('dist/images/album_covers'));
+});
+
+gulp.task('minify-members', function() {
+	return gulp.src('Multimedia/band_members/*')
+		.pipe(imagemin({
+			progressive: true,
+			use: [imageminPngquant()]
+		}))
+		.pipe(gulp.dest('dist/images/band_members'));
+});
+
+gulp.task('minify-merch', function() {
+	return gulp.src('Multimedia/merch/*')
+		.pipe(imagemin({
+			progressive: true,
+			use: [imageminPngquant()]
+		}))
+		.pipe(gulp.dest('dist/images/merch'));
+});
+
+gulp.task('minify-social', function() {
+	return gulp.src('Multimedia/social/*')
+		.pipe(imagemin({
+			progressive: true,
+			use: [imageminPngquant()]
+		}))
+		.pipe(gulp.dest('dist/images/social'));
+});
+
+gulp.task('minify-sound', function() {
+    return gulp.src('Multimedia/sound/*.svg')
+    .pipe(imagemin({
+        progressive: true,
+        use: [imageminPngquant()]
+    }))
+    .pipe(gulp.dest('dist/images/sound'));
+});
+
+gulp.task('minify-logo', function() {
+    return gulp.src('Multimedia/The-Coreys-Logo.png')
+        .pipe(imagemin({
+            progressive: true,
+            use: [imageminPngquant()]
+        }))
+        .pipe(gulp.dest('dist/images'));
 });

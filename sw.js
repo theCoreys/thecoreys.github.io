@@ -89,7 +89,7 @@ self.addEventListener("install", function (event) {
         'index.html',
         'sureal.mp4',
         'favicon.ico',
-        'The-Coreys-Logo.png',
+        'dist/images/The-Coreys-Logo.png',
         'html/Biography.html',
         'html/Discography.html',
         'html/Merch.html',
@@ -99,13 +99,13 @@ self.addEventListener("install", function (event) {
         'dist/css/styles.css',
         'data/liveNews.json',
         'data/quizQuestions.json',
-        'Multimedia/social/bc.svg',
-        'Multimedia/social/fb.svg',
-        'Multimedia/social/sc.svg',
-        'Multimedia/social/yt.svg',
-        'Multimedia/sound/10th_Anniversary.mp3',
-        'Multimedia/sound/off.svg',
-        'Multimedia/sound/on.svg',
+        'dist/images/social/bc.svg',
+        'dist/images/social/fb.svg',
+        'dist/images/social/sc.svg',
+        'dist/images/social/yt.svg',
+        'dist/images/sound/off.svg',
+        'dist/images/sound/on.svg',
+        'Multimedia/sound/10th_Anniversary.mp3'
     ];
 
     // Signal the progress of the install
