@@ -36,3 +36,5 @@ Example:
         "address": "Παρκο Μεγάλου Αλεξάνδρου , Ξάνθη",
         "link": "theLink2.net"
     } 
+
+3) DON'T PUT THE FUCKING ADDRESS IN THE FUCKING NAME FIELD!!!

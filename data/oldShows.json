@@ -8,7 +8,7 @@
     ,{
         "name": "ΤΕΙ Σερρών (W/DOWNFALL)",
         "date": "4/6/08",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
     ,{
@@ -18,79 +18,79 @@
         "link": ""
     }
     ,{
-        "name": "Skate Contest Ξάνθη",
+        "name": "Skate Contest Ξάνθης",
         "date": "21/6/08",
         "address": "Παρκο Μεγάλου Αλεξάνδρου , Ξάνθη",
         "link": ""
     } 
 	,{
-        "name": "2o Λύκειο Τούμπας, Θεσσαλονίκη (/skaribas, Clowns)",
+        "name": "2o Λύκειο Τούμπας, (/skaribas, Clowns)",
         "date": "25/6/08",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Θεατράκι, Σέρρες",
+        "name": "Θεατράκι",
         "date": "2/7/08",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     } 
 	,{
-        "name": "imeros beach, Κομοτινή",
+        "name": "imeros beach",
         "date": "15/8/08",
-        "address": "",
+        "address": "Κομοτινή",
         "link": ""
     }
 	,{
-        "name": "Πλατεία Σταυρούπολης, Θεσσαλονίκη (/Mαύρη Μαγιονέζα)",
+        "name": "Πλατεία Σταυρούπολης, (/Mαύρη Μαγιονέζα)",
         "date": "9/9/08",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Στέκι στη Μόδη, Θεσσαλονίκη",
+        "name": "Στέκι στη Μόδη",
         "date": "10/10/08",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "8Βall, Θεσσαλονίκη (/Downfall, Virgin Steve, Smile Off)",
+        "name": "8Βall (/Downfall, Virgin Steve, Smile Off)",
         "date": "25/10/08",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "Souita, Τρίκαλα",
+        "name": "Souita",
         "date": "31/10/08",
         "address": "Στεφάνου Σαράφη 18, Τρίκαλα 421 00",
         "link": ""
     }
 	,{
-        "name": "Rapsodia, Καλαμπάκα",
+        "name": "Rapsodia",
         "date": "1/11/08",
         "address": "Ελ. Βενιζέλου, Καλαμπάκα 422 00",
         "link": ""
     }
 	,{
-        "name": "8Ball, Θεσσαλονίκη (/Mαυρη Μαγιονέζα)",
+        "name": "8Ball, (/Mαυρη Μαγιονέζα)",
         "date": "6/12/08",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "Μέθεξις, Bόλος (Funky Monkey, Poiotita)",
+        "name": "Μέθεξις, (Funky Monkey, Poiotita)",
         "date": "7/12/08",
-        "address": "",
+        "address": "Bόλος",
         "link": ""
     }
 	,{
-        "name": "Πολυτεχνείο (music festival), Θεσσαλονίκη",
+        "name": "Πολυτεχνείο (music festival)",
         "date": "18/12/08",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Αn Club, Aθήνα (/Skaribas)",
+        "name": "Αn Club, (/Skaribas)",
         "date": "30/1/09",
         "address": "Σολωμού 13, Αθήνα 106 83",
         "link": ""
@@ -102,39 +102,39 @@
         "link": ""
     }
 	,{
-        "name": "Κύτταρο, Αθήνα (minitour /The Subways [GB])",
+        "name": "Κύτταρο, (minitour /The Subways [GB])",
         "date": "19/3/09",
         "address": "Αχαρνών και Ηπείρου, Αθήνα 104 39",
         "link": ""
     }
 	,{
-        "name": "Principal, Θεσσαλονίκη (minitour /The Subways [GB])",
+        "name": "Principal, (minitour /The Subways [GB])",
         "date": "20/3/09",
         "address": "26ης Οκτωβρίου 15, Θεσσαλονίκη 546 27",
         "link": ""
     }
 	,{
-        "name": "ΤΕΙ Κοζάνης, Κοζάνη",
+        "name": "ΤΕΙ Κοζάνης",
         "date": "28/3/09",
         "address": "Kila, Kila Kozanis 501 00",
         "link": ""
     }
 	,{
-        "name": "Graffiti Skateboarding Festival, Βέροια",
+        "name": "Graffiti Skateboarding Festival",
         "date": "12/4/09",
-        "address": "",
+        "address": "Βέροια",
         "link": ""
     }
 	,{
-        "name": "10ήμερο Πολιτιστικό Festival, Kαβάλα",
+        "name": "10ήμερο Πολιτιστικό Festival",
         "date": "29/5/09",
         "address": "Αγ. Λουκάς, Καβάλα 654 04",
         "link": ""
     }
 	,{
-        "name": "3x3 Basket Tounuament, Πτολεμαϊδα",
+        "name": "3x3 Basket Tounuament",
         "date": "4/6/09",
-        "address": "",
+        "address": "Πτολεμαϊδα",
         "link": ""
     }
 	,{
@@ -144,19 +144,19 @@
         "link": ""
     }
 	,{
-        "name": "Agios Georgios Argiriadon Beach, Κέρκυρα (/Κακό Συναπάντημα)",
+        "name": "Agios Georgios Argiriadon Beach, (/Κακό Συναπάντημα)",
         "date": "1/8/09",
-        "address": "",
+        "address": "Κέρκυρα",
         "link": ""
     }
 	,{
-        "name": "Block33 Opening Party, Θεσσαλονίκη",
+        "name": "Block33 Opening Party",
         "date": "30/8/09",
         "address": "26ης Οκτωβρίου 33, Θεσσαλονίκη 546 27",
         "link": ""
     }
 	,{
-        "name": "8Βall, Θεσσαλονίκη (/Deckstand)",
+        "name": "8Βall (/Deckstand)",
         "date": "2/10/09",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
@@ -168,273 +168,273 @@
         "link": ""
     }
 	,{
-        "name": " 8Ball Music Festival, Θεσσαλονίκη",
+        "name": " 8Ball Music Festival",
         "date": "4/1/10",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "8Ball, Θεσσαλονίκη (/ΧΑΤ ΤΡΙΚ)",
+        "name": "8Ball (/ΧΑΤ ΤΡΙΚ)",
         "date": "20/1/10",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "Lost Dogs, Θεσσαλονίκη",
+        "name": "Lost Dogs",
         "date": "6/2/10",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "BACK2STREETZ festival, Θεσσαλονίκη",
+        "name": "BACK2STREETZ festival",
         "date": "14/3/10",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Power Rock Show (PB), Αθήνα",
+        "name": "Power Rock Show (PB)",
         "date": "19/3/10",
-        "address": "",
+        "address": "Αθήνα",
         "link": ""
     }
 	,{
-        "name": "10ήμερο Πολιτιστικό Festival, Kαβάλα (μπουγέλο 1)",
+        "name": "10ήμερο Πολιτιστικό Festival, (μπουγέλο 1)",
         "date": "28/5/10",
         "address": "Αγ. Λουκάς, Καβάλα 654 04",
         "link": ""
     }
 	,{
-        "name": "3x3 Basket Tounuament, Πτολεμαϊδα (μπουγέλο 2)",
+        "name": "3x3 Basket Tounuament, (μπουγέλο 2)",
         "date": "18/6/10",
-        "address": "",
+        "address": "Πτολεμαϊδα",
         "link": ""
     }
     ,{
-        "name": "Micropolis, Θεσσαλονίκη",
+        "name": "Micropolis",
         "date": "2/7/10",
         "address": "Βασ. Ηρακλειου 18, Θεσσαλονίκη 546 24",
         "link": ""
     }
 	,{
-        "name": "Βlock33, Θεσσαλονίκη (/Mikro Treno, Smile Off)",
+        "name": "Βlock33 (/Mikro Treno, Smile Off)",
         "date": "28/6/10",
         "address": "26ης Οκτωβρίου 33, Θεσσαλονίκη 546 27",
         "link": ""
     }
 	,{
-        "name": "Pop Ska Punk Rock Show (PB), Aθήνα",
+        "name": "Pop Ska Punk Rock Show (PB)",
         "date": "2/7/10",
-        "address": "",
+        "address": "Aθήνα",
         "link": ""
     }
 	,{
-        "name": "Summertime's Over Festival, Θεσσαλονίκη",
+        "name": "Summertime's Over Festival",
         "date": "20/8/10",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "8Ball, Θεσσαλονίκη (Οι Coreys επιστρέφουν!) ",
+        "name": "8Ball, (Οι Coreys επιστρέφουν!) ",
         "date": "23/2/11",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "12o Θεσσαλονικη Δημοτικό Σχολείο, Θεσσαλονίκη",
+        "name": "12o Θεσσαλονικη Δημοτικό Σχολείο",
         "date": "11/3/11",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Let’s Kick The Romans’ Ass, Θεσσαλονίκη ",
+        "name": "Let’s Kick The Romans’ Ass",
         "date": "14/4/11",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Skate Contest, Ξάνθη",
+        "name": "Skate Contest",
         "date": "14/5/11",
         "address": "Παρκο Μεγάλου Αλεξάνδρου , Ξάνθη",
         "link": ""
     }
 	,{
-        "name": "Πολιτιστικό Δεκαήμερο ΤΕΙ Καβάλας, Καβάλα",
+        "name": "Πολιτιστικό Δεκαήμερο ΤΕΙ Καβάλας",
         "date": "28/5/11",
         "address": "Αγ. Λουκάς, Καβάλα 654 04",
         "link": ""
     }
 	,{
-        "name": "ΕυρωπαΪκή Γιορτή της Μουσικής, Βόλος",
+        "name": "ΕυρωπαΪκή Γιορτή της Μουσικής",
         "date": "20/6/11",
-        "address": "",
+        "address": "Βόλος",
         "link": ""
     }
 	,{
-        "name": "Φεστιβάλ “Πρωτόλεια Δρώμενα” (Πλαζ Αρετσούς στην Καλαμαριά), Θεσσαλονίκη",
+        "name": "Φεστιβάλ “Πρωτόλεια Δρώμενα” (Πλαζ Αρετσούς στην Καλαμαριά)",
         "date": "21/8/11",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Πλατεία Ναυαρίνου(D.I.Y. Live Show), Θεσσαλονίκη",
+        "name": "Πλατεία Ναυαρίνου(D.I.Y. Live Show)",
         "date": "9/9/11",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Στέκι Ιατρικής Σχολής, Θεσσαλονίκη",
+        "name": "Στέκι Ιατρικής Σχολής",
         "date": "5/11/11",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "TEI Aρχιτεκτονικής Τοπίου, Δράμα",
+        "name": "TEI Aρχιτεκτονικής Τοπίου",
         "date": "17/2/12",
-        "address": "",
+        "address": "Δράμα",
         "link": ""
     }
 	,{
-        "name": "Konektiva Zerminal, Θεσσαλονικη",
+        "name": "Konektiva Zerminal",
         "date": "16/3/12",
-        "address": "",
+        "address": "Θεσσαλονικη",
         "link": ""
     }
 	,{
-        "name": "Spiti Mou, Θεσσαλονίκη",
+        "name": "Spiti Mou",
         "date": "23/3/12",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Sxoleio, Θεσσαλονίκη",
+        "name": "Sxoleio",
         "date": "8/12/12 ",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "8Ball, Θεσσαλονίκη",
+        "name": "8Ball",
         "date": "13/3/13",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "EKKO, Σέρρες (/Puressence) [GB] ",
+        "name": "EKKO, (/Puressence) [GB] ",
         "date": "23/3/12",
         "address": "Βασ. Βασιλείου 30, Σέρρες 621 00",
         "link": ""
     }
 	,{
-        "name": " Libertatia, Θεσσαλονίκη",
+        "name": " Libertatia",
         "date": "28/3/12",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Silver Dollar, Θεσσαλονίκη",
+        "name": "Silver Dollar",
         "date": "10/4/13",
         "address": "Εθ. Αμύνης 19, Θεσσαλονίκη 546 21",
         "link": ""
     }
 	,{
-        "name": "8Ball, Θεσσαλονίκη",
+        "name": "8Ball",
         "date": "22/5/13",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "10ήμερο Πολιτιστικό Φεστιβάλ, Καβάλα",
+        "name": "10ήμερο Πολιτιστικό Φεστιβάλ",
         "date": "24/5/13",
         "address": "Αγ. Λουκάς, Καβάλα 654 04",
         "link": ""
     }
 	,{
-        "name": "Μπάτε Σκύλοι, Θεσσαλονίκη",
+        "name": "Μπάτε Σκύλοι",
         "date": "6/6/13",
         "address": "Ολύμπου 59, Θεσσαλονίκη 546 31",
         "link": ""
     }
 	,{
-        "name": "Festival Αυτοδιαχείρισης (γρασίδια Φιλοσοφικής), Θεσσαλονίκη",
+        "name": "Festival Αυτοδιαχείρισης (γρασίδια Φιλοσοφικής)",
         "date": "14/6/13",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Παγκόσμια Ημέρα Μουσικής, Ξάνθη",
+        "name": "Παγκόσμια Ημέρα Μουσικής",
         "date": "21/6/13",
-        "address": "",
+        "address": "Ξάνθη",
         "link": ""
     }
 	,{
-        "name": "Schoolwave Festival, Αθήνα",
+        "name": "Schoolwave Festival",
         "date": "5/7/13",
-        "address": "",
+        "address": "Αθήνα",
         "link": ""
     }
 	,{
-        "name": "Πολυτεχνείο, Θεσσαλονίκη ",
+        "name": "Πολυτεχνείο",
         "date": "20/9/13",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "TEI, Σέρρες",
+        "name": "TEI Σερρών",
         "date": "8/11/13",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": "Πολυτεχνείο, Ξάνθη",
+        "name": "Πολυτεχνείο",
         "date": "13/12/13 ",
-        "address": "",
+        "address": "Ξάνθη",
         "link": ""
     }
 	,{
-        "name": "Water warriors Fest in ΑΠΘ, Θεσσαλονίκη",
+        "name": "Water warriors Fest in ΑΠΘ",
         "date": "21/12/13",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Wishville, Σέρρες",
+        "name": "Wishville",
         "date": "29/12/13",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": "Στέκι στο Βιολογικό, Θεσσαλονίκη",
+        "name": "Στέκι στο Βιολογικό",
         "date": "5/4/14",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Χάρης Αθανασιάδης, Πτολεμαϊδα",
+        "name": "Χάρης Αθανασιάδης",
         "date": "13/4/14",
-        "address": "",
+        "address": "Πτολεμαϊδα",
         "link": ""
     }
 	,{
-        "name": "Νέα Παραλία έξω από το Μουσικό Μέγαρο, Θεσσαλονικη",
+        "name": "Νέα Παραλία έξω από το Μουσικό Μέγαρο",
         "date": "14/4/14",
-        "address": "",
+        "address": "Θεσσαλονικη",
         "link": ""
     }
 	,{
-        "name": "Μαύρη Τρύπα, Θεσσαλονίκη",
+        "name": "Μαύρη Τρύπα",
         "date": "29/4/14",
         "address": "Βάιου 5, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "The Art Music Festival, Σέρρες",
+        "name": "The Art Music Festival",
         "date": "10/5/14",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": "Νόστος Live Stage, Ξάνθη",
+        "name": "Νόστος Live Stage",
         "date": "11/5/14",
-        "address": "5,, Μαλετσίδου, Ξάνθη 671 00",
+        "address": "5, Μαλετσίδου, Ξάνθη 671 00",
         "link": ""
     }
 	,{
@@ -444,55 +444,55 @@
         "link": ""
     }
 	,{
-        "name": "Antifa Tournament στο “Σχολείο”, Θεσσαλονίκη",
+        "name": "Antifa Tournament στο “Σχολείο”",
         "date": "17/5/14",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Συναυλία για τα “Χωριά SOS”, Θεσσαλονίκη",
+        "name": "Συναυλία για τα “Χωριά SOS”",
         "date": "16/12/14",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Κλειδί του φα, Σέρρες",
+        "name": "Κλειδί του φα",
         "date": "27/2/15",
         "address": "Ζακύνθου 7, Σέρρες 621 23, Σέρρες 621 23",
         "link": ""
     }
 	,{
-        "name": "Παρουσίαση νέου δίσκου στο “Υπόγειο”, Θεσσαλονίκη",
+        "name": "Παρουσίαση νέου δίσκου στο “Υπόγειο”",
         "date": "14/11/15",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Παρουσίαση δίσκου στο Bookit Club, Σέρρες",
+        "name": "Παρουσίαση δίσκου στο Bookit Club",
         "date": "22/11/15",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": "Methodia -Mini Tour- Part.1 /MPLIAX 166 +Guests, Αθήνα",
+        "name": "Methodia -Mini Tour- Part.1 /MPLIAX 166 +Guests",
         "date": "8/5/16",
         "address": "Αγίου Όρους 15, Αθήνα 104 47",
         "link": ""
     }
 	,{
-        "name": "Bensusan Han -Mini Tour- Part.2 /MPLIAX 166 + After Party, Θεσσαλονίκη",
+        "name": "Bensusan Han -Mini Tour- Part.2 /MPLIAX 166 + After Party",
         "date": "12/5/16",
         "address": "Εδέσσης 6, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "Bookit Club -Mini Tour- Part.3, Σέρρες",
+        "name": "Bookit Club -Mini Tour- Part.3",
         "date": "14/5/16",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": "Santeria Fest vol.4 (Rover Bar), Θεσσαλονίκη",
+        "name": "Santeria Fest vol.4 (Rover Bar)",
         "date": "28/6/16",
         "address": "Σαλαμίνος 6, Θεσσαλονίκη 546 25",
         "link": ""
@@ -510,123 +510,123 @@
         "link": ""
     }
 	,{
-        "name": "MARKY RAMONE 40th Anniversary Show, Θεσσαλονίκη",
+        "name": "MARKY RAMONE 40th Anniversary Show",
         "date": "8/9/16",
         "address": "26ης Οκτωβρίου 15, Θεσσαλονίκη 546 27",
         "link": ""
     }
 	,{
-        "name": "Punk Rock Party w/Pirates City @ Yπόγειο, Θεσσαλονίκη",
+        "name": "Punk Rock Party w/Pirates City @ Yπόγειο",
         "date": "12/11/16",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Μπάτε Σκύλοι (Semi-acoustic show), Θεσσαλονίκη",
+        "name": "Μπάτε Σκύλοι (Semi-acoustic show)",
         "date": "21/12/16",
         "address": "Ολύμπου 59, Θεσσαλονίκη 546 31",
         "link": ""
     }
 	,{
-        "name": "Bookit, Σέρρες ",
+        "name": "Bookit",
         "date": "5/2/17",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": "Surreality Party Yolume 1, Θεσσαλονίκη",
+        "name": "Surreality Party Yolume 1",
         "date": "16/2/17",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Horrorpraxis Horror Show, Θεσσαλονίκη",
+        "name": "Horrorpraxis Horror Show",
         "date": "18/2/17",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Nouvelle Vague, Καβάλα",
+        "name": "Nouvelle Vague",
         "date": "3/3/17",
-        "address": "",
+        "address": "Καβάλα",
         "link": ""
     }
 	,{
-        "name": "EKKO Club w/Vodka Juniors, 63High, Σέρρες",
+        "name": "EKKO Club w/Vodka Juniors, 63High",
         "date": "26/3/17",
         "address": "Βασ. Βασιλείου 30, Σέρρες 621 00",
         "link": ""
     }
 	,{
-        "name": "8Ball Club w/Vodka Juniors, Guerilla Poubelle, Θεσσαλονίκη",
+        "name": "8Ball Club w/Vodka Juniors, Guerilla Poubelle",
         "date": "7/4/17",
         "address": "Πίνδου, Θεσσαλονίκη 546 25",
         "link": ""
     }
 	,{
-        "name": "JUST RADIO Festival, Κοζάνη",
+        "name": "JUST RADIO Festival",
         "date": "20/5/17",
-        "address": "",
+        "address": "Κοζάνη",
         "link": ""
     }
 	,{
-        "name": "3ο Galatsi City Festival, Αθήνα",
+        "name": "3ο Galatsi City Festival",
         "date": "3/6/17",
-        "address": "",
+        "address": "Αθήνα",
         "link": ""
     }
 	,{
-        "name": "European Music Day Festival, Ξάνθη",
+        "name": "European Music Day Festival",
         "date": "21/6/17",
-        "address": "",
+        "address": "Ξάνθη",
         "link": ""
     }
 	,{
-        "name": "3ο Galatsi City Festival, Αθήνα",
+        "name": "3ο Galatsi City Festival",
         "date": "3/6/17",
-        "address": "",
+        "address": "Αθήνα",
         "link": ""
     }
 	,{
-        "name": "Αντιρατσιστικό Φεστιβάλ, Θεσσαλονίκη",
+        "name": "Αντιρατσιστικό Φεστιβάλ",
         "date": "24/6/17",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "X-Fest 2017, Καστοριά",
+        "name": "X-Fest 2017",
         "date": "28/7/17",
-        "address": "",
+        "address": "Καστοριά",
         "link": ""
     }
 	,{
-        "name": "Πλατεία Άνω Ηλιούπολης, Θεσσαλονίκη",
+        "name": "Πλατεία Άνω Ηλιούπολης",
         "date": "20/9/17",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": " Waiting for the Sun Fest, Σέρρες",
+        "name": " Waiting for the Sun Fest",
         "date": "29/9/17",
-        "address": "",
+        "address": "Σέρρες",
         "link": ""
     }
 	,{
-        "name": " w/Junkheart, Σπιρτόκουτο Λάρισα",
+        "name": " w/Junkheart, Σπιρτόκουτο",
         "date": "2/12/17",
-        "address": "",
+        "address": "Λάρισα",
         "link": ""
     }
 	,{
-        "name": "Υπόγειο w/Junkheart, Θεσσαλονίκη",
+        "name": "Υπόγειο w/Junkheart",
         "date": "3/12/17",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
-        "name": "Σώμα φίλων ΑΜΕΑ, Θεσσαλονίκη",
+        "name": "Σώμα φίλων ΑΜΕΑ",
         "date": "10/12/17",
-        "address": "",
+        "address": "Θεσσαλονίκη",
         "link": ""
     }
 	,{
@@ -636,45 +636,15 @@
         "link": ""
     }
 	,{
-        "name": "Bad Tooth, Αθήνα",
+        "name": "Bad Tooth",
         "date": "1/3/18",
-        "address": "",
+        "address": "Αθήνα",
         "link": ""
     }
 	,{
-        "name": "Ποσείδι Camping, Χαλκιδική",
+        "name": "Ποσείδι Camping",
         "date": "6/6/18",
-        "address": "",
+        "address": "Χαλκιδική",
         "link": ""
     }
 ]
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-    
-	
-	
-	
-	
-	
-	
-	
-	
-		
-	
-
-    
