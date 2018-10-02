@@ -28,6 +28,8 @@ function loadOldShows(callback) {
 loadOldShows(function (response) {
     // Parse JSON string into object
     let liveData = JSON.parse(response);
+    // Reverse the array so that their first live is displayed at the bottom of the screen.
+    liveData = liveData.reverse();
     // Select the unsorted list in which the live data will be appended to.
     let list = document.getElementById("live-list");
 
@@ -35,7 +37,7 @@ loadOldShows(function (response) {
         // Create a list item for a live show.
         let listItem = document.createElement('li');
         listItem.className = 'linews';
-
+        
         // Create the link to the live's page.
         let listLink
         if (liveData[i].link == "") {
@@ -43,8 +45,13 @@ loadOldShows(function (response) {
         } else {
             listLink = '<a href="' + liveData[i].link + '" class="list-link">' + liveData[i].name + '</a>';
         }
-
-        listItem.innerHTML = liveData[i].date + " - " + listLink + " - " + liveData[i].address;
+        
+        // Check if Address is filled.
+        if(liveData[i].address==""){
+            listItem.innerHTML = liveData[i].date + " - " + listLink;
+        }else{
+            listItem.innerHTML = liveData[i].date + " - " + listLink + " - " + liveData[i].address;
+        }
         list.appendChild(listItem);
     }
 
@@ -73,6 +80,8 @@ function loadUpcomingShows(callback) {
 loadUpcomingShows(function (response) {
     // Parse JSON string into object
     let liveData = JSON.parse(response);
+    // Reverse the array so that their first live is displayed at the bottom of the screen.
+    liveData = liveData.reverse();
     // Select the unsorted list in which the live data will be appended to.
     let list = document.getElementById("upcoming");
 

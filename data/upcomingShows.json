@@ -1,20 +1,9 @@
 [
     {
-        "name": "Fest 1",
-        "date": "1/1/18",
-        "address": "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35",
-        "link": ""
+        "name": "The Coreys + BoneCrack = Live in Athens",
+        "date": "1/11/18",
+        "address": "Κακουργοδικείου 6, Αθήνα 105 54",
+        "link": "https://www.facebook.com/events/178154913108893/"
     }
-    ,{
-        "name": "Fest 2",
-        "date": "2/1/18",
-        "address": "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35",
-        "link": "https://www.facebook.com/bob.corey.50"
-    }
-    ,{
-        "name": "Fest 3",
-        "date": "3/1/18",
-        "address": "Κων/νου Μελενίκου 13, Θεσσαλονίκη 546 35",
-        "link": "https://www.facebook.com/bob.corey.50"
-    }
+    
 ]
