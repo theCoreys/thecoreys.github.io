@@ -6,14 +6,14 @@ let date = "not set";
 let address = "not set";
 
 /**
- * Create a new instance of a XMLHttpRequest and load asynchronously the contents of liveNews.json.
+ * Create a new instance of a XMLHttpRequest and load asynchronously the contents of oldShows.json.
  * @param {*} callback 
  */
-function loadJSON(callback) {
+function loadOldShows(callback) {
 
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
-    xobj.open('GET', '../data/liveNews.json', true);
+    xobj.open('GET', '../data/oldShows.json', true);
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode.
@@ -25,41 +25,97 @@ function loadJSON(callback) {
 
 
 //A script to fetch the quiz questions from the json file, shuflle them, add them one by one to the dom, by listening to the submit event the submit event of the previous one.
-loadJSON(function (response) {
+loadOldShows(function (response) {
     // Parse JSON string into object
     let liveData = JSON.parse(response);
+    // Reverse the array so that their first live is displayed at the bottom of the screen.
+    liveData = liveData.reverse();
     // Select the unsorted list in which the live data will be appended to.
     let list = document.getElementById("live-list");
 
-    for(i=0; i<liveData.length; i++){
+    for (i = 0; i < liveData.length; i++) {
         // Create a list item for a live show.
         let listItem = document.createElement('li');
-        listItem.className='linews';
+        listItem.className = 'linews';
         
         // Create the link to the live's page.
         let listLink
-        if(liveData[i].link==""){
+        if (liveData[i].link == "") {
             listLink = liveData[i].name;
+        } else {
+            listLink = '<a href="' + liveData[i].link + '" class="list-link">' + liveData[i].name + '</a>';
+        }
+        
+        // Check if Address is filled.
+        if(liveData[i].address==""){
+            listItem.innerHTML = liveData[i].date + " - " + listLink;
         }else{
-            listLink = '<a href="'+liveData[i].link+'" class="list-link">'+liveData[i].name+'</a>';
+            listItem.innerHTML = liveData[i].date + " - " + listLink + " - " + liveData[i].address;
+        }
+        list.appendChild(listItem);
+    }
+
+});
+
+/**
+ * Create a new instance of a XMLHttpRequest and load asynchronously the contents of upcomingShows.json.
+ * @param {*} callback 
+ */
+function loadUpcomingShows(callback) {
+
+    let xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', '../data/upcomingShows.json', true);
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode.
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
+}
+
+
+//A script to fetch the quiz questions from the json file, shuflle them, add them one by one to the dom, by listening to the submit event the submit event of the previous one.
+loadUpcomingShows(function (response) {
+    // Parse JSON string into object
+    let liveData = JSON.parse(response);
+    // Reverse the array so that their first live is displayed at the bottom of the screen.
+    liveData = liveData.reverse();
+    // Select the unsorted list in which the live data will be appended to.
+    let list = document.getElementById("upcoming");
+
+    for (i = 0; i < liveData.length; i++) {
+        // Create a list item for a live show.
+        let listItem = document.createElement('li');
+        listItem.className = 'linews';
+
+        // Create the link to the live's page.
+        let listLink
+        if (liveData[i].link == "") {
+            listLink = liveData[i].name;
+        } else {
+            listLink = '<a href="' + liveData[i].link + '" class="list-link">' + liveData[i].name + '</a>';
         }
 
-        listItem.innerHTML=liveData[i].date+" - "+listLink+" - "+liveData[i].address;
+        listItem.innerHTML = liveData[i].date + " - " + listLink + " - " + liveData[i].address;
         list.appendChild(listItem);
-
     }
-    // Get the latest live's title.
+
+});
+
+
+/* Google maps now REQUIRES a credit card and will work only for free only for the first $200 monthly credit.
+ After that you pay or wait till next month. 
+
+ // Get the latest live's title.
     liveTitle=liveData[liveData.length-1].name;
     console.log(liveTitle);
     // Get the latest live's date.
     date=liveData[liveData.length-1].date;
     // Get the latest live's address.
     address=liveData[liveData.length-1].address;
-});
-
-
-/* Google maps now REQUIRES a credit card and will work only for free only for the first $200 monthly credit.
- After that you pay or wait till next month. */
+    
  let map;
 
  // Create a new blank array for all the listing markers.
@@ -160,3 +216,4 @@ function geocodeAddress(geocoder, resultsMap, address) {
         }
     });
 }
+*/
