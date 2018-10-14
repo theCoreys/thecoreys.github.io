@@ -83,7 +83,7 @@
         z-index: 10001;
 
         /* Hide menu off screen */
-        position: absolute;
+        position: fixed;
         transform: translate(106%, 0);
         transition: transform 0.2s ease;
     }
@@ -125,6 +125,7 @@
 .speaker{
     float: right;
     width: 60px;
+    max-width: 100%;
     cursor: pointer;
 }
 
@@ -206,6 +207,11 @@
     text-decoration: none;
 }
 
+.ulmenu li a:hover {
+    text-decoration: none;
+    color: rgb(255, 216, 0);
+}
+
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
@@ -221,6 +227,7 @@ li a:hover {
 
 .logo{
     width: 350px;
+    max-width: 100%;
 }
 
 #menubar {
