@@ -1,4 +1,3 @@
-
 var audio = new Audio('Multimedia/sound/10th_Anniversary.mp3');
 var on = "dist/images/sound/on.svg";
 var off = "dist/images/sound/off.svg";
@@ -20,14 +19,25 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Play music or not
+    let speaker = document.querySelector('.speaker');
     document.addEventListener('click', function (e) {
-        let speaker = document.querySelector('.speaker');
         if (e.target.classList.contains("popup-inner")) {
-            speaker.setAttribute('src', "dist/images/sound/on.svg");
+            speaker.setAttribute('src', on);
             audio.play();
         }
         fadeTarget.style.display = "none";
-    }); 
+    });
+
+    speaker.addEventListener('click', function () {
+        if (audio.paused) {
+            speaker.setAttribute('src', on);
+            audio.play();
+        } else {
+            speaker.setAttribute('src', off);
+            audio.pause();
+        }
+    })
+
 
     setInterval(function () {
         fadeOutEffect();
