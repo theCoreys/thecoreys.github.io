@@ -4,18 +4,18 @@
   "short_name": "theCoreys",
   "name": "The Coreys",
   "icons": [{
-      "src": "The-Coreys-Logo.png",
+      "src": "dist/images/The-Coreys-Logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "The-Coreys-Logo.png",
+      "src": "dist/images/The-Coreys-Logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "index.html",
-  "background_color": "#E52449",
+  "background_color": "#ffd800",
   "display": "standalone",
-  "theme_color": "#E52449"
+  "theme_color": "#ffd800"
 }

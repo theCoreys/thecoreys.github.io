@@ -36,7 +36,6 @@ gulp.task('styles', function () {
 gulp.task('index-script', function () {
         return gulp.src([
             'js/menu.js',
-            'js/contentMusicPlayer.js',
             'js/indexMusicPlayer.js'
         ])
         .pipe(sourcemaps.init())
