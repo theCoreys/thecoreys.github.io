@@ -1,0 +1,51 @@
+[
+    {
+        "question": "When did the Coreys become a band?",
+        "choice1": "On 1999",
+        "choice2": "On 2008",
+        "choice3": "On 2005",
+        "choice4": "On 2010",
+        "answer": "On 2008"
+    }
+    ,{
+        "question": "Which is the newest member of the band?",
+        "choice1": "Bob",
+        "choice2": "Dimos",
+        "choice3": "Marios",
+        "choice4": "Kurk",
+        "answer": "Dimos"
+    }
+    ,{
+        "question": "What's the name of the band's show?",
+        "choice1": "Surreality show",
+        "choice2": "With the Coreys",
+        "choice3": "Surrealistic show",
+        "choice4": "The Coreys show",
+        "answer": "Surreality show"
+    }
+    ,{
+        "question": "Which member of the Coreys doesn't know how to tie his own guitar strings?",
+        "choice1": "Dimos",
+        "choice2": "Bob",
+        "choice3": "Kurk",
+        "choice4": "Marios",
+        "answer": "Kurk"
+    }
+    ,{
+        "question": "Which is the Coreys’ first full length album?",
+        "choice1": "Για πάνκ ενδεχόμενο",
+        "choice2": "The Coreys",
+        "choice3": "Park of sunshine",
+        "choice4": "Ενδεχόμενο",
+        "answer": "Για πάνκ ενδεχόμενο"
+    }
+    ,{
+        "question": "Σε ποιό τραγούδι ανήκει ο στίχος \"πίανω την ευκαιρία από το μαλλί\"?",
+        "choice1": "Γύρω από τη φωτιά",
+        "choice2": "Ευκαιρία",
+        "choice3": "Ζωή μπουκάλι",
+        "choice4": "Άλλοι αποφασίζουνε για μας",
+        "answer": "Ζωή μπουκάλι"
+    }
+    
+]
