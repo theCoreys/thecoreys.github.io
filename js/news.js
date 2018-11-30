@@ -46,12 +46,7 @@ loadOldShows(function (response) {
             listLink = '<a href="' + liveData[i].link + '" class="list-link">' + liveData[i].name + '</a>';
         }
         
-        // Check if Address is filled.
-        if(liveData[i].address==""){
-            listItem.innerHTML = liveData[i].date + " - " + listLink;
-        }else{
-            listItem.innerHTML = liveData[i].date + " - " + listLink + " - " + liveData[i].address;
-        }
+        listItem.innerHTML = liveData[i].date + " - " + listLink;
         list.appendChild(listItem);
     }
 
